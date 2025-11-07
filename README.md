@@ -95,8 +95,6 @@ Official website for Brock University's Computer Science Club. Built with modern
 
 **Tech:** TypeScript, React, Next.js
 
-⭐ 5 Stars | 🍴 8 Forks
-
 </td>
 <td width="50%">
 
@@ -106,8 +104,6 @@ Official website for Brock University's Computer Science Club. Built with modern
 Volunteer application platform with React frontend and Cloudflare serverless backend for managing CSC volunteer applications.
 
 **Tech:** TypeScript, React, Cloudflare Workers
-
-⭐ 1 Star
 
 </td>
 </tr>
@@ -130,8 +126,6 @@ Deep research agent that generates comprehensive reports on codebases based on h
 Implementation of program synthesis for the ARC-AGI benchmark using heuristic search algorithms. Tackles AI reasoning challenges.
 
 **Tech:** Python, Algorithm Design
-
-⭐ 1 Star
 
 </td>
 </tr>
