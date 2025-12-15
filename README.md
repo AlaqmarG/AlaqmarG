@@ -82,57 +82,6 @@ I've collaborated with brands like **Club Brugge**, **Chalhoub Group**, and **Pr
 
 <br/>
 
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-### 🎓 Brock CSC Website
-[**BrockCSC/brockcsc.github.io**](https://github.com/BrockCSC/brockcsc.github.io)
-
-Official website for Brock University's Computer Science Club. Built with modern web technologies to serve the CS student community.
-
-**Tech:** TypeScript, React, Next.js
-
-</td>
-<td width="50%">
-
-### 📝 CSC Volunteer Portal
-[**BrockCSC/volunteer.brockcsc.ca**](https://github.com/BrockCSC/volunteer.brockcsc.ca)
-
-Volunteer application platform with React frontend and Cloudflare serverless backend for managing CSC volunteer applications.
-
-**Tech:** TypeScript, React, Cloudflare Workers
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🔍 SourceSeer
-[**AlaqmarG/SourceSeer**](https://github.com/AlaqmarG/SourceSeer)
-
-Deep research agent that generates comprehensive reports on codebases based on human prompts. Forked and enhanced from langchain-ai's open_deep_research.
-
-**Tech:** Python, LangChain, AI/ML
-
-</td>
-<td width="50%">
-
-### 🧩 ARC-AGI Program Synthesis
-[**AlaqmarG/arc-agi-program-synthesis**](https://github.com/AlaqmarG/arc-agi-program-synthesis)
-
-Implementation of program synthesis for the ARC-AGI benchmark using heuristic search algorithms. Tackles AI reasoning challenges.
-
-**Tech:** Python, Algorithm Design
-
-</td>
-</tr>
-</table>
-
-<br/>
-
 ## 🔗 Connect With Me
 
 <p align="center">
