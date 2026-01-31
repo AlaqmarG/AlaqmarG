@@ -19,7 +19,7 @@
 
 ## 👨‍💻 About Me
 
-Full-stack developer and game developer pursuing a **B.Sc. in Computer Science** at Brock University. With **2 years of professional development experience**, I've worked at **LandVault**, **Boltable Studio**, and **Shiloh & Bros**.
+Full-stack developer and game developer pursuing a **B.Sc. in Computer Science** at Brock University. With **2+ years of professional development experience**, I've worked at **Royal Bank of Canada (RBC)**, **Boltable Studio**, and **Shiloh & Bros**.
 
 I've collaborated with brands like **Club Brugge**, **Chalhoub Group**, and **Prestige Group**, powering their Roblox presence and bridging the gap between their services and the Roblox ecosystem.
 
@@ -27,6 +27,11 @@ I've collaborated with brands like **Club Brugge**, **Chalhoub Group**, and **Pr
 - ✉️  Contact: [alaqmargandhi@gmail.com](mailto:alaqmargandhi@gmail.com)
 - 💬  Ask me about: **Roblox development, full-stack projects, game development**
 - 💪  Personal: Love bouldering and my La Sportiva Tarantula Boulder shoes.
+
+### Highlights
+- DevOps @ RBC: platform governance at scale, artifact signing/verification pipelines
+- Game dev: procedural systems + analytics-driven retention/monetization improvements
+- Full-stack: React/Next.js + ASP .NET Core backends and high-volume APIs
 
 <br/>
 
@@ -40,6 +45,8 @@ I've collaborated with brands like **Club Brugge**, **Chalhoub Group**, and **Pr
 <a href="https://lua.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/lua-colored.svg" alt="Lua" width="48" height="48" /></a>
 <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/csharp-colored.svg" alt="C#" width="48" height="48" /></a>
 <a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" alt="Java" width="48" height="48" /></a>
+<a href="https://en.cppreference.com/w/c/language" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" alt="C" width="48" height="48" /></a>
+<a href="https://isocpp.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" alt="C++" width="48" height="48" /></a>
 </p>
 
 ### Frontend
@@ -64,6 +71,16 @@ I've collaborated with brands like **Club Brugge**, **Chalhoub Group**, and **Pr
 <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg" alt="Firebase" width="48" height="48" /></a>
 </p>
 
+### AI & Data
+<p>
+<a href="https://numpy.org/" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/numpy/013243" alt="NumPy" width="48" height="48" /></a>
+<a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/pandas/150458" alt="Pandas" width="48" height="48" /></a>
+<a href="https://matplotlib.org/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="Matplotlib" width="48" height="48" /></a>
+<a href="https://opencv.org/" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/opencv/5C3EE8" width="48" height="48" alt="OpenCV" /></a>
+<a href="https://github.com/ultralytics/ultralytics" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/ultralytics/111111" width="48" height="48" alt="Ultralytics (YOLO)" /></a>
+<a href="https://ai.google.dev/gemini-api" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/googlegemini/4285F4" width="48" height="48" alt="Google Gemini" /></a>
+</p>
+
 ### Roblox Development
 <p>
 <a href="https://roblox-ts.com/" target="_blank" rel="noreferrer"><img src="https://roblox-ts.com/img/roblox-ts.svg" alt="roblox-ts" width="48" height="48" /></a>
@@ -78,6 +95,11 @@ I've collaborated with brands like **Club Brugge**, **Chalhoub Group**, and **Pr
 <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg" alt="Docker" width="48" height="48" /></a>
 <a href="https://www.digitalocean.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/digitalocean-colored.svg" alt="Digital Ocean" width="48" height="48" /></a>
 <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg" alt="VS Code" width="48" height="48" /></a>
+<a href="https://github.com/features/actions" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/githubactions/2088FF" width="48" height="48" alt="GitHub Actions" /></a>
+<a href="https://workers.cloudflare.com/" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/cloudflare/F38020" width="48" height="48" alt="Cloudflare Workers" /></a>
+<a href="https://stripe.com/" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/stripe/635BFF" width="48" height="48" alt="Stripe" /></a>
+<a href="https://goharbor.io/" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/harbor/60B932" width="48" height="48" alt="Harbor" /></a>
+<a href="https://www.portainer.io/" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/portainer/13BEF9" width="48" height="48" alt="Portainer" /></a>
 </p>
 
 <br/>
