@@ -29,7 +29,7 @@ I've collaborated with brands like **Club Brugge**, **Chalhoub Group**, and **Pr
 - 💪  Personal: Love bouldering and my La Sportiva Tarantula Boulder shoes.
 
 ### Highlights
-- DevOps @ RBC: platform governance at scale, artifact signing/verification pipelines
+- DevOps @ RBC: Enterprise AI Governance, and AI powered Developer Tooling and Automation
 - Game dev: procedural systems + analytics-driven retention/monetization improvements
 - Full-stack: React/Next.js + ASP .NET Core backends and high-volume APIs
 
