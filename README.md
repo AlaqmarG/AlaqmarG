@@ -91,11 +91,14 @@ Where both sides meet — the shared toolbox powering data, infra, and everythin
 
 <br/>
 
-## 📊 GitHub Activity
+## 📊 Status
 
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AlaqmarG&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
+<pre align="center">
+$ tail -f build.log
+> [RBC]      shipping dev-tooling automation, one PR at a time
+> [BOLTABLE] shipping Roblox experiences, one playtest at a time
+> [ALWAYS]   open to interesting conversations — say hi below ↓
+</pre>
 
 <br/>
 
