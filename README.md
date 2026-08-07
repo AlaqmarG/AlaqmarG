@@ -1,77 +1,97 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6A0DAD,100:1E3A8A&height=220&section=header&text=Alaqmar%20Gandhi&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Game%20Developer&descAlignY=58&descSize=20" width="100%"/>
-
-<a href="https://github.com/AlaqmarG">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=Full-Stack+Software+Developer;Game+%26+Roblox+Developer;B.Sc.+Computer+Science+%40+Brock+University;Building+at+the+intersection+of+code+%26+play" alt="Typing SVG" />
-</a>
+<pre>
+┌──────────────────────────────────────────────────────────────────┐
+│  $ whoami                                                         │
+│  > Alaqmar Gandhi                                                 │
+│                                                                    │
+│  $ ./roles.sh --list                                              │
+│  > [SWE]  Full-Stack Software Developer                           │
+│  > [GDEV] Game & Roblox Developer                                 │
+│                                                                    │
+│  $ cat status.txt                                                 │
+│  > Shipping production code by day, building worlds by night      │
+└──────────────────────────────────────────────────────────────────┘
+</pre>
 
 </div>
 
-<br/>
-
 ## 👨‍💻 About Me
 
-Full-stack developer and game developer pursuing a **B.Sc. in Computer Science** at Brock University. With **2+ years of professional development experience**, I've worked at **Royal Bank of Canada (RBC)**, **Boltable Studio**, and **Shiloh & Bros**.
-
-I've collaborated with brands like **Club Brugge**, **Chalhoub Group**, and **Prestige Group**, powering their Roblox presence and bridging the gap between their services and the Roblox ecosystem.
+Pursuing a **B.Sc. in Computer Science** at Brock University, with **2+ years of professional development experience** split between enterprise software and game development. I've collaborated with brands like **Club Brugge**, **Chalhoub Group**, and **Prestige Group**, bridging the gap between their business and the Roblox ecosystem.
 
 - 🌍&nbsp; Based in **Ontario, Canada** and **Dubai, United Arab Emirates**
 - ✉️&nbsp; Contact: [alaqmargandhi@gmail.com](mailto:alaqmargandhi@gmail.com)
 - 💬&nbsp; Ask me about: **Roblox development, full-stack projects, game development**
 - 🧗&nbsp; Personal: Love bouldering and my La Sportiva Tarantula Boulder shoes.
 
-### ✨ Highlights
-
-| | |
-|---|---|
-| 🏦 **DevOps @ RBC** | Enterprise AI Governance, and AI powered Developer Tooling and Automation |
-| 🎮 **Game Dev** | Procedural systems + analytics-driven retention/monetization improvements |
-| 🌐 **Full-Stack** | React/Next.js + ASP .NET Core backends and high-volume APIs |
-
 <br/>
 
-## 🛠️ Tech Stack
+## ⚡ Two Sides, One Dev
 
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=ts,js,py,lua,cs,java,c,cpp" />
-
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,angular,tailwind,sass,html,css" />
-
-**Backend & Database**
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,dotnet,mongodb,mysql,firebase" />&nbsp;<img src="https://cdn.simpleicons.org/snowflake/29B5E8" width="48" height="48" alt="Snowflake" />&nbsp;<img src="https://cdn.simpleicons.org/elastic/005571" width="48" height="48" alt="Elastic" />
-
-**AI & Data**
-
-<img src="https://cdn.simpleicons.org/numpy/013243" width="48" height="48" alt="NumPy" />&nbsp;<img src="https://cdn.simpleicons.org/pandas/150458" width="48" height="48" alt="Pandas" />&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" width="48" height="48" alt="Matplotlib" />&nbsp;<img src="https://cdn.simpleicons.org/opencv/5C3EE8" width="48" height="48" alt="OpenCV" />&nbsp;<img src="https://cdn.simpleicons.org/ultralytics/111111" width="48" height="48" alt="Ultralytics (YOLO)" />&nbsp;<img src="https://cdn.simpleicons.org/googlegemini/4285F4" width="48" height="48" alt="Google Gemini" />
-
-**Roblox Development**
-
-<table>
+<table width="100%">
 <tr>
-<td><a href="https://roblox-ts.com/" target="_blank" rel="noreferrer"><img src="https://roblox-ts.com/img/roblox-ts.svg" alt="roblox-ts" width="48" height="48" /></a></td>
-<td><a href="https://github.com/littensy/rbxts-react" target="_blank" rel="noreferrer"><img src="https://github.com/littensy/rbxts-react/raw/main/assets/logo.png?raw=true" alt="rbxts-react" width="48" height="48" /></a></td>
-<td><a href="https://flamework.fireboltofdeath.dev/" target="_blank" rel="noreferrer"><img src="https://flamework.fireboltofdeath.dev/img/logo.png" alt="Flamework" width="48" height="48" /></a></td>
-<td><a href="https://ui-labs.luau.page/" target="_blank" rel="noreferrer"><img src="https://ui-labs.luau.page/home/pluginlogo.png" alt="UI Labs" width="48" height="48" /></a></td>
+<td width="50%" valign="top">
+
+### 💻 SOFTWARE_ENGINEER.sh
+
+<pre>
+$ cat companies.log
+> RBC — DevOps, Enterprise AI Governance,
+>       AI-powered Dev Tooling & Automation
+> Shiloh & Bros — Full-stack web systems
+
+$ cat education.log
+> B.Sc. Computer Science, Brock University
+
+$ ls stack/languages
+ts  js  py  lua  cs  java  c  cpp
+
+$ ls stack/frontend
+react  nextjs  angular  tailwind  sass
+
+$ ls stack/backend
+nodejs  express  dotnet  mongodb  mysql
+</pre>
+
+<img src="https://skillicons.dev/icons?i=ts,js,py,cs,react,nextjs,dotnet,mongodb" />
+
+</td>
+<td width="50%" valign="top">
+
+### 🎮 GAME_DEV.hud
+
+<img src="https://img.shields.io/badge/GUILD-Boltable%20Studio-6A0DAD?style=for-the-badge" alt="Boltable Studio"/>
+<img src="https://img.shields.io/badge/CLASS-Roblox%20Developer-1E3A8A?style=for-the-badge" alt="Roblox Developer"/>
+
+**▸ CLIENTS SERVED**
+`Club Brugge` · `Chalhoub Group` · `Prestige Group`
+
+**▸ SKILL TREE**
+
+roblox-ts&nbsp;&nbsp;&nbsp;`████████░░`
+<br/>Flamework&nbsp;&nbsp;&nbsp;`███████░░░`
+<br/>rbxts-react&nbsp;`███████░░░`
+<br/>UI Labs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`██████░░░░`
+
+**▸ PERKS**
+🧩 Procedural systems&nbsp;&nbsp;📈 Retention & monetization analytics
+
+</td>
 </tr>
 </table>
 
-**Tools & DevOps**
+<br/>
 
-<img src="https://skillicons.dev/icons?i=git,docker,digitalocean,vscode,githubactions,cloudflareworkers,stripe" />&nbsp;<img src="https://cdn.simpleicons.org/harbor/60B932" width="48" height="48" alt="Harbor" />&nbsp;<img src="https://cdn.simpleicons.org/portainer/13BEF9" width="48" height="48" alt="Portainer" />
+## 🔀 Currently
+
+Where both sides meet — the shared toolbox powering data, infra, and everything in between.
+
+<img src="https://cdn.simpleicons.org/numpy/013243" width="40" height="40" alt="NumPy" />&nbsp;<img src="https://cdn.simpleicons.org/pandas/150458" width="40" height="40" alt="Pandas" />&nbsp;<img src="https://cdn.simpleicons.org/opencv/5C3EE8" width="40" height="40" alt="OpenCV" />&nbsp;<img src="https://cdn.simpleicons.org/googlegemini/4285F4" width="40" height="40" alt="Google Gemini" />&nbsp;<img src="https://cdn.simpleicons.org/snowflake/29B5E8" width="40" height="40" alt="Snowflake" />&nbsp;<img src="https://cdn.simpleicons.org/elastic/005571" width="40" height="40" alt="Elastic" />&nbsp;<img src="https://skillicons.dev/icons?i=git,docker,githubactions,vscode" />
 
 <br/>
 
 ## 📊 GitHub Activity
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=AlaqmarG&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="AlaqmarG's GitHub stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlaqmarG&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
-</p>
 
 <p align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=AlaqmarG&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
