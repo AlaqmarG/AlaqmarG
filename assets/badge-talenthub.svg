@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="237" height="36" viewBox="0 0 237 36" role="img" aria-label="TALENT HUB: verified credits">
+<defs><clipPath id="c"><path d="M10,0 H237 V26 L227,36 H0 V10 Z"/></clipPath><style>.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,"Courier New",monospace}
+.sans{font-family:ui-sans-serif,-apple-system,"Segoe UI",Inter,Helvetica,Arial,sans-serif}</style></defs>
+<g clip-path="url(#c)">
+  <rect width="237" height="36" fill="#121A2B"/>
+  <rect width="104" height="36" fill="#22D3EE" fill-opacity=".13"/>
+  <line x1="104" y1="6" x2="104" y2="30" stroke="#22D3EE" stroke-opacity=".3"/>
+  <circle cx="18" cy="18" r="3.4" fill="#22D3EE"><animate attributeName="opacity" values="1;.3;1" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="18" cy="18" r="3.4" fill="none" stroke="#22D3EE"><animate attributeName="r" values="3.4;9" dur="2.2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".6;0" dur="2.2s" repeatCount="indefinite"/></circle>
+  <text x="30" y="22" class="mono" font-size="9.5" font-weight="700" fill="#22D3EE" letter-spacing="1.3">TALENT HUB</text>
+  <text x="117" y="22" class="mono" font-size="10.5" fill="#EAF0F8">verified credits</text>
+</g>
+<path d="M10,0 H237 V26 L227,36 H0 V10 Z" fill="none" stroke="#22D3EE" stroke-opacity=".38"/>
+</svg>
