@@ -4,11 +4,11 @@
 
 <br/>
 
-[![Roblox Talent Hub](https://img.shields.io/badge/Roblox_Talent_Hub-verified_credits-00A2FF?style=flat-square&logo=roblox&logoColor=white)](https://create.roblox.com/talent/creators/346676728)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-alaqmarg-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/alaqmarg)
-[![Email](https://img.shields.io/badge/Email-alaqmargandhi@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:alaqmargandhi@gmail.com)
-[![Discord](https://img.shields.io/badge/Discord-alaqmarg-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/alaqmarg)
-![Location](https://img.shields.io/badge/Ontario,_CA-·_Dubai,_UAE-1F2937?style=flat-square)
+<a href="https://create.roblox.com/talent/creators/346676728"><img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/badge-talenthub.svg" alt="Roblox Talent Hub — verified credits" /></a>
+<a href="https://linkedin.com/in/alaqmarg"><img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/badge-linkedin.svg" alt="LinkedIn — alaqmarg" /></a>
+<a href="mailto:alaqmargandhi@gmail.com"><img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/badge-email.svg" alt="Email — alaqmargandhi@gmail.com" /></a>
+<a href="https://discord.com/users/alaqmarg"><img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/badge-discord.svg" alt="Discord — alaqmarg" /></a>
+<img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/badge-location.svg" alt="Based in Ontario, Canada and Dubai, UAE" />
 
 </div>
 
@@ -20,11 +20,11 @@ A London studio hired me as a contract game developer in **September 2023**. My 
 lecture at Brock was a few weeks after that. I have been shipping ever since — five game
 studios, one bank, six live titles, and one game that never came out.
 
-The two halves of the timeline below overlap on purpose. Brock's co-op programme alternates
-study terms and work terms, so through 2026 the games work and the bank work ran side by
-side rather than stacked on top of classes.
+The path forks in 2026 and never rejoins, which is accurate. Brock's co-op programme
+alternates study terms and work terms, so the games branch and the platform branch have been
+running side by side rather than stacked on top of classes — and both are still live.
 
-<img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/timeline.svg" alt="Career timeline from September 2023 to now: Landvault, Boltable Studio, Shiloh &amp; Bros, Hi-Fun Interactive, Eterna Online, and Royal Bank of Canada" />
+<img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/map.svg" alt="Career map from September 2023 to now: Landvault, Boltable Studio, Shiloh &amp; Bros, Hi-Fun Interactive, Eterna Online, and Royal Bank of Canada" />
 
 <br/>
 
@@ -32,16 +32,16 @@ side rather than stacked on top of classes.
 
 Every title below is on my [Roblox Talent Hub](https://create.roblox.com/talent/creators/346676728).
 Roblox only lets a creator attach an experience there if they have held edit access to that
-place, so the credits are platform-verified rather than self-reported. **The visit counts on
-this chart are read from the Roblox API by a scheduled workflow in this repo — they are not
-typed in by hand, and they go up while you are not looking.**
+place, so the credits are platform-verified rather than self-reported. **The scores below are
+read from the Roblox API by a scheduled workflow in this repo — nothing here is typed in by
+hand, and the numbers go up while you are not looking.**
 
-<img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/portfolio.svg" alt="Shipped Roblox titles ranked by lifetime visits, plus two projects with zero visits" />
+<img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/scores.svg" alt="High score table of shipped Roblox titles ranked by lifetime visits, plus two projects with no score" />
 
-The two entries at the bottom have no numbers attached and are on the board deliberately.
-One is an MMO still in development. The other is a real six-month contract on a game that
-was cancelled before launch — which turns out to be an ordinary part of this industry, and
-pretending otherwise would make the rest of the chart less honest.
+The two entries under the line have no score and are on the board deliberately. One is an MMO
+still in development. The other is a real six-month contract on a game that was cancelled
+before launch — an ordinary thing in this industry, and leaving it off would make the rest of
+the table less honest.
 
 <br/>
 
@@ -51,7 +51,7 @@ The thing I am actually good at is the loop, not any single feature in it. Ship 
 nobody publishes by hand, measure what players do, and let the funnel decide what gets built
 next.
 
-<img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/pipeline.svg" alt="The delivery loop: merge to main, GitHub Actions build, Mantle and Open Cloud publish, live places, telemetry and funnel analytics, feeding back into what ships next" />
+<img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/loop.svg" alt="The delivery loop: merge to main, GitHub Actions build, Mantle and Open Cloud publish, live places, telemetry and funnel analytics, feeding back into what ships next" />
 
 <br/>
 
@@ -190,23 +190,11 @@ loop above is the thing I care most about now.
 
 ## What I reach for
 
-**Roblox** &nbsp;
-`Luau` `roblox-ts` `Flamework` `Rojo` `Wally` `Lyra` `Mantle` `Open Cloud` `DarkLua` `Lune` `ECS`
+Five branches. The Roblox and live-ops side and the backend and platform side are the two
+halves of the timeline above, and they feed each other more than people expect — a release
+pipeline is a release pipeline whether it ships a tower defense update or a bank service.
 
-**Live-ops** &nbsp;
-`funnel instrumentation` `D1/D7 retention` `payer conversion` `churn analysis` `core loop design` `milestone scoping` `post-mortems`
-
-**Backend** &nbsp;
-`ASP.NET Core` `Node.js` `Express` `FastAPI` `REST` `PostgreSQL` `MongoDB` `Redis` `Snowflake` `Elasticsearch`
-
-**Frontend** &nbsp;
-`TypeScript` `React` `Next.js` `Angular` `Tailwind`
-
-**Platform** &nbsp;
-`Docker` `Kubernetes` `OpenShift` `Terraform` `Helm` `Ansible` `GitHub Actions` `Jenkins` `Cosign` `SBOM/SCA` `DAST` `OpenTelemetry` `AWS` `Azure`
-
-**Languages** &nbsp;
-`TypeScript` `Python` `C++` `C` `C#` `Java` `Luau` `SQL` `COBOL` `Bash`
+<img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/tree.svg" alt="Talent tree of skills across five branches: Roblox, live-ops, backend, platform and languages" />
 
 <br/>
 

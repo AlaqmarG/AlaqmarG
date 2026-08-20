@@ -14,17 +14,3 @@ export const UNSHIPPED = [
   { name: 'Pudgy Penguins', studio: 'Landvault',     color: '#A78BFA', status: 'never shipped',    note: '4 procedural mini-games · physics, controls, UI' },
   { name: 'Eterna Online',  studio: 'Lead Developer', color: '#34D399', status: 'in development',  note: 'MMO RPG · Roblox Jumpstart' },
 ];
-
-export const ROLES = [
-  { color: '#A78BFA', co: 'Landvault',            role: 'Game Developer · Contract', dates: 'Sep 2023 — Feb 2024', m0: 0,  m1: 6,  metric: 'Pudgy Penguins · never shipped', ghost: true,  after: true },
-  { color: '#22D3EE', co: 'Boltable Studio',      role: 'Software Developer',            dates: 'May 2024 — Feb 2025', m0: 8,  m1: 18, metric: '241M visits · 4 titles',   ghost: false, after: true },
-  { color: '#A3E635', co: 'Shiloh & Bros',   role: 'Game Developer · Contract', dates: 'Mar 2025 — Aug 2025', m0: 18, m1: 24, metric: '4.4M visits · 15% D1', ghost: false, after: true },
-  { color: '#FB7185', co: 'Hi-Fun Interactive',   role: 'Game Developer · Contract', dates: 'Nov 2025 — Apr 2026', m0: 26, m1: 32, metric: '13.8M visits · 30K CCU',    ghost: false, after: false },
-  { color: '#34D399', co: 'Eterna Online',        role: 'Lead Developer',                dates: 'Jul 2026 — now',      m0: 34, m1: 36, metric: 'MMO RPG · in development',      ghost: false, after: false },
-  { color: '#FBBF24', co: 'Royal Bank of Canada', role: 'DevOps Developer · Co-op',  dates: 'Jan 2026 — now',      m0: 28, m1: 36, metric: 'AI-agent governance',      ghost: false, after: false },
-];
-
-export const PALETTE = {
-  bg: '#0B0E14', chrome: '#0E1219', line: '#1B2130', edge: '#222A38',
-  text: '#E6EDF3', dim: '#8B95A5', mute: '#5B6472', faint: '#3F4855',
-};
