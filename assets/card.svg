@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="332" viewBox="0 0 900 332" role="img" aria-label="Alaqmar Gandhi — game developer, platform engineer, live-ops. 260.5M lifetime visits across 6 shipped titles, six studios, three years: Landvault, Boltable, Shiloh and Bros, Hi-Fun, RBC, Eterna.">
+<defs><style>.serif{font-family:Georgia,"Iowan Old Style","Times New Roman",serif}
+.sans{font-family:ui-sans-serif,-apple-system,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,"Courier New",monospace}
+    .halo{animation:halo 2.6s ease-out infinite}@keyframes halo{0%{r:5;opacity:.5}70%,100%{r:14;opacity:0}}
+  </style></defs>
+<defs><clipPath id="cardclip"><rect x="1" y="1" width="898" height="330" rx="14"/></clipPath></defs>
+<g clip-path="url(#cardclip)"><rect width="900" height="332" fill="#FAF7F2"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".6s" begin=".15s" fill="freeze"/>
+  <text x="56" y="58" class="mono" font-size="10" fill="#C8912F" letter-spacing="2.6">GAME DEVELOPER &#183; PLATFORM ENGINEER &#183; LIVE-OPS</text>
+  <text x="56" y="106" class="serif" font-size="44" font-weight="700" fill="#1B1A17" letter-spacing="-.6">Alaqmar Gandhi</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".6s" begin=".5s" fill="freeze"/>
+  <text x="56" y="136" class="sans" font-size="14" fill="#5F5849">Recruited by a London studio three weeks before my first university lecture.</text>
+  <text x="56" y="156" class="sans" font-size="14" fill="#5F5849">Still going — six shipped titles, and one game that never came out.</text></g>
+<line x1="56" y1="182" x2="844" y2="182" stroke="#E5DDD1"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin=".9s" fill="freeze"/>
+<text x="56" y="222" class="serif" font-size="31" font-weight="700" fill="#D9573D" text-anchor="start" opacity="0">70.6M<animate attributeName="opacity" values="1;1" begin="1.08s" dur="0.08s"/></text><text x="56" y="222" class="serif" font-size="31" font-weight="700" fill="#D9573D" text-anchor="start" opacity="0">127.1M<animate attributeName="opacity" values="1;1" begin="1.16s" dur="0.08s"/></text><text x="56" y="222" class="serif" font-size="31" font-weight="700" fill="#D9573D" text-anchor="start" opacity="0">171.2M<animate attributeName="opacity" values="1;1" begin="1.24s" dur="0.08s"/></text><text x="56" y="222" class="serif" font-size="31" font-weight="700" fill="#D9573D" text-anchor="start" opacity="0">204.3M<animate attributeName="opacity" values="1;1" begin="1.32s" dur="0.08s"/></text><text x="56" y="222" class="serif" font-size="31" font-weight="700" fill="#D9573D" text-anchor="start" opacity="0">228.0M<animate attributeName="opacity" values="1;1" begin="1.40s" dur="0.08s"/></text><text x="56" y="222" class="serif" font-size="31" font-weight="700" fill="#D9573D" text-anchor="start" opacity="0">243.9M<animate attributeName="opacity" values="1;1" begin="1.48s" dur="0.08s"/></text><text x="56" y="222" class="serif" font-size="31" font-weight="700" fill="#D9573D" text-anchor="start" opacity="0">253.5M<animate attributeName="opacity" values="1;1" begin="1.56s" dur="0.08s"/></text><text x="56" y="222" class="serif" font-size="31" font-weight="700" fill="#D9573D" text-anchor="start" opacity="0">258.5M<animate attributeName="opacity" values="1;1" begin="1.64s" dur="0.08s"/></text><text x="56" y="222" class="serif" font-size="31" font-weight="700" fill="#D9573D" text-anchor="start" opacity="0">260.3M<animate attributeName="opacity" values="1;1" begin="1.72s" dur="0.08s"/></text><text x="56" y="222" class="serif" font-size="31" font-weight="700" fill="#D9573D" text-anchor="start" opacity="0">260.5M<animate attributeName="opacity" to="1" begin="1.80s" dur=".1s" fill="freeze"/></text>
+<text x="56" y="242" class="mono" font-size="9" fill="#A2988A" letter-spacing="1.5">LIFETIME VISITS</text>
+<text x="258" y="222" class="serif" font-size="31" font-weight="700" fill="#3F9B7E">6</text>
+<text x="258" y="242" class="mono" font-size="9" fill="#A2988A" letter-spacing="1.5">SHIPPED TITLES</text>
+<text x="460" y="222" class="serif" font-size="31" font-weight="700" fill="#46688F">6</text>
+<text x="460" y="242" class="mono" font-size="9" fill="#A2988A" letter-spacing="1.5">STUDIOS</text>
+<text x="662" y="222" class="serif" font-size="31" font-weight="700" fill="#C8912F">3</text>
+<text x="662" y="242" class="mono" font-size="9" fill="#A2988A" letter-spacing="1.5">YEARS SHIPPING</text>
+</g>
+<line x1="78" y1="290" x2="838" y2="290" stroke="#E5DDD1" stroke-width="2"/>
+<line x1="78" y1="290" x2="78" y2="290" stroke="#A2988A" stroke-width="2">
+    <animate attributeName="x2" from="78" to="838" dur="1.5s" begin="1.5s" fill="freeze"/></line>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="1.6s" fill="freeze"/>
+    <circle cx="78.0" cy="290" r="5.5" fill="#FAF7F2" stroke="#5F5849" stroke-width="1.6" stroke-dasharray="2.6 2.2"/>
+    <text x="78.0" y="276" class="mono" font-size="9" fill="#A2988A" text-anchor="middle" letter-spacing=".6">2023</text>
+    <text x="78.0" y="312" class="sans" font-size="10.5" font-weight="600" fill="#5F5849" text-anchor="middle">Landvault</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="1.8s" fill="freeze"/>
+    <circle cx="220.4" cy="290" r="5.5" fill="#FAF7F2" stroke="#5F5849" stroke-width="1.6"/>
+    <text x="220.4" y="276" class="mono" font-size="9" fill="#A2988A" text-anchor="middle" letter-spacing=".6">2024</text>
+    <text x="220.4" y="312" class="sans" font-size="10.5" font-weight="600" fill="#5F5849" text-anchor="middle">Boltable</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="2.0s" fill="freeze"/>
+    <circle cx="362.8" cy="290" r="5.5" fill="#FAF7F2" stroke="#5F5849" stroke-width="1.6"/>
+    <text x="362.8" y="276" class="mono" font-size="9" fill="#A2988A" text-anchor="middle" letter-spacing=".6">2025</text>
+    <text x="362.8" y="312" class="sans" font-size="10.5" font-weight="600" fill="#5F5849" text-anchor="middle">Shiloh &amp; Bros</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="2.2s" fill="freeze"/>
+    <circle cx="505.2" cy="290" r="5.5" fill="#FAF7F2" stroke="#5F5849" stroke-width="1.6"/>
+    <text x="505.2" y="276" class="mono" font-size="9" fill="#A2988A" text-anchor="middle" letter-spacing=".6">2025</text>
+    <text x="505.2" y="312" class="sans" font-size="10.5" font-weight="600" fill="#5F5849" text-anchor="middle">Hi-Fun</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="2.4s" fill="freeze"/>
+    <circle cx="647.6" cy="290" r="5.5" fill="#FAF7F2" stroke="#5F5849" stroke-width="1.6"/>
+    <text x="647.6" y="276" class="mono" font-size="9" fill="#A2988A" text-anchor="middle" letter-spacing=".6">2026</text>
+    <text x="647.6" y="312" class="sans" font-size="10.5" font-weight="600" fill="#5F5849" text-anchor="middle">RBC</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="2.6s" fill="freeze"/>
+    <circle cx="790.0" cy="290" r="5.5" fill="#FAF7F2" stroke="#5F5849" stroke-width="1.6"/>
+    <text x="790.0" y="276" class="mono" font-size="9" fill="#A2988A" text-anchor="middle" letter-spacing=".6">2026</text>
+    <text x="790.0" y="312" class="sans" font-size="10.5" font-weight="600" fill="#5F5849" text-anchor="middle">Eterna</text></g>
+<circle r="4" fill="#1B1A17"><animateMotion path="M78,290 H838" dur="1.5s" begin="1.5s" fill="freeze"/></circle>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".4s" begin="3.0s" fill="freeze"/>
+  <circle cx="838" cy="290" r="5" fill="#D9573D"/>
+  <circle cx="838" cy="290" r="5" fill="none" stroke="#D9573D" class="halo"/>
+  <text x="838" y="276" class="mono" font-size="9" fill="#D9573D" text-anchor="end" letter-spacing=".6">now</text></g>
+</g><rect x="0.5" y="0.5" width="899" height="331" rx="14" fill="none" stroke="#DED4C6"/>
+</svg>
