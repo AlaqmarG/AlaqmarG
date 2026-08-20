@@ -1,17 +1,13 @@
 #!/usr/bin/env node
 /**
- * Regenerates every SVG in assets/ from live Roblox data.
+ * Regenerates the SVGs in assets/ from live Roblox data.
  * No dependencies. Falls back to the baked-in figures in data.mjs if the API is unreachable.
  */
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { GAMES, UNSHIPPED } from './data.mjs';
 import { M } from './kit.mjs';
-import { hero } from './scenes/hero.mjs';
-import { map } from './scenes/map.mjs';
-import { scores } from './scenes/scores.mjs';
-import { tree } from './scenes/tree.mjs';
-import { loop } from './scenes/loop.mjs';
-import { badge, BADGES } from './scenes/badges.mjs';
+import { heroCard } from './scenes/card.mjs';
+import { titles } from './scenes/titles.mjs';
 
 async function refresh() {
   const ids = GAMES.map(g => g.universeId).join(',');
@@ -37,11 +33,6 @@ const total = GAMES.reduce((a, g) => a + g.visits, 0);
 const stamp = new Date().toISOString().slice(0, 10);
 
 mkdirSync('assets', { recursive: true });
-writeFileSync('assets/hero.svg', hero(total, GAMES.length));
-writeFileSync('assets/map.svg', map());
-writeFileSync('assets/scores.svg', scores(GAMES, UNSHIPPED, stamp));
-writeFileSync('assets/tree.svg', tree());
-writeFileSync('assets/loop.svg', loop());
-for (const b of BADGES) writeFileSync(`assets/badge-${b.id}.svg`, badge(b));
-
-console.log(`wrote hero, map, scores, tree, loop + ${BADGES.length} badges — ${M(total)} lifetime visits (${stamp})`);
+writeFileSync('assets/card.svg', heroCard(total, GAMES.length));
+writeFileSync('assets/titles.svg', titles(GAMES, UNSHIPPED, stamp));
+console.log(`wrote card.svg, titles.svg — ${M(total)} lifetime visits (${stamp})`);
