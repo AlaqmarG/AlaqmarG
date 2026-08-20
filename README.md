@@ -21,7 +21,7 @@
   <img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/titles.svg" alt="Shipped Roblox titles by lifetime visits, plus two projects with no visits.">
 </picture>
 
-<sub>Every title is on my <a href="https://create.roblox.com/talent/creators/346676728">Roblox Talent Hub</a> — Roblox only lets you list a game there if you held edit access to it. Counts are pulled from the Roblox API daily by a workflow in this repo.</sub>
+<sub>Visit counts come straight from Roblox's public API, refreshed daily by <a href="https://github.com/AlaqmarG/AlaqmarG/blob/main/scripts/build.mjs">a workflow in this repo</a> — nothing on this page is typed in by hand, and you can check any figure yourself. Full credits on my <a href="https://create.roblox.com/talent/creators/346676728">Roblox Talent Hub</a>.</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/tree-dark.svg">
