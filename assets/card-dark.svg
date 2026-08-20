@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="322" viewBox="0 0 900 322" role="img" aria-label="Alaqmar Gandhi — game developer, platform engineer, live-ops. 260.5M lifetime visits across 6 shipped titles, six studios, three years. Landvault, Boltable, Shiloh and Bros and Hi-Fun on the games track; Royal Bank of Canada on the platform track. Hi-Fun overlapped RBC, and Eterna Online and RBC are both current.">
+<defs><style>.serif{font-family:Georgia,"Iowan Old Style","Times New Roman",serif}
+.sans{font-family:ui-sans-serif,-apple-system,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,"Courier New",monospace}
+    .halo{animation:halo 2.6s ease-out infinite}@keyframes halo{0%{r:4;opacity:.55}70%,100%{r:12;opacity:0}}
+  </style></defs>
+<defs><clipPath id="cardclip"><rect x="1" y="1" width="898" height="320" rx="14"/></clipPath></defs>
+<g clip-path="url(#cardclip)"><rect width="900" height="322" fill="#191714"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".6s" begin=".15s" fill="freeze"/>
+  <text x="48" y="46" class="mono" font-size="10" fill="#E0A94A" letter-spacing="2.6">GAME DEVELOPER &#183; PLATFORM ENGINEER &#183; LIVE-OPS</text>
+  <text x="48" y="90" class="serif" font-size="38" font-weight="700" fill="#F2EDE4" letter-spacing="-.6">Alaqmar Gandhi</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".6s" begin=".5s" fill="freeze"/>
+  <text x="48" y="116" class="sans" font-size="14" fill="#B8AFA2">Recruited by a London studio three weeks before my first university lecture.</text>
+  <text x="48" y="134" class="sans" font-size="14" fill="#B8AFA2">Still going — six shipped titles, and one game that never came out.</text></g>
+<line x1="48" y1="156" x2="852" y2="156" stroke="#2E2A24"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin=".9s" fill="freeze"/>
+<text x="48" y="210" class="serif" font-size="27" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">70.6M<animate attributeName="opacity" values="1;1" begin="1.08s" dur="0.08s"/></text><text x="48" y="210" class="serif" font-size="27" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">127.1M<animate attributeName="opacity" values="1;1" begin="1.16s" dur="0.08s"/></text><text x="48" y="210" class="serif" font-size="27" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">171.2M<animate attributeName="opacity" values="1;1" begin="1.24s" dur="0.08s"/></text><text x="48" y="210" class="serif" font-size="27" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">204.3M<animate attributeName="opacity" values="1;1" begin="1.32s" dur="0.08s"/></text><text x="48" y="210" class="serif" font-size="27" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">228.0M<animate attributeName="opacity" values="1;1" begin="1.40s" dur="0.08s"/></text><text x="48" y="210" class="serif" font-size="27" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">243.9M<animate attributeName="opacity" values="1;1" begin="1.48s" dur="0.08s"/></text><text x="48" y="210" class="serif" font-size="27" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">253.5M<animate attributeName="opacity" values="1;1" begin="1.56s" dur="0.08s"/></text><text x="48" y="210" class="serif" font-size="27" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">258.5M<animate attributeName="opacity" values="1;1" begin="1.64s" dur="0.08s"/></text><text x="48" y="210" class="serif" font-size="27" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">260.3M<animate attributeName="opacity" values="1;1" begin="1.72s" dur="0.08s"/></text><text x="48" y="210" class="serif" font-size="27" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">260.5M<animate attributeName="opacity" to="1" begin="1.80s" dur=".1s" fill="freeze"/></text>
+<text x="48" y="214" class="mono" font-size="9" fill="#7C7368" letter-spacing="1.5">LIFETIME VISITS</text>
+<text x="258" y="194" class="serif" font-size="27" font-weight="700" fill="#5BBE9C">6</text>
+<text x="258" y="214" class="mono" font-size="9" fill="#7C7368" letter-spacing="1.5">SHIPPED TITLES</text>
+<text x="460" y="194" class="serif" font-size="27" font-weight="700" fill="#7BA3CE">6</text>
+<text x="460" y="214" class="mono" font-size="9" fill="#7C7368" letter-spacing="1.5">STUDIOS</text>
+<text x="662" y="194" class="serif" font-size="27" font-weight="700" fill="#E0A94A">3</text>
+<text x="662" y="214" class="mono" font-size="9" fill="#7C7368" letter-spacing="1.5">YEARS SHIPPING</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin="2.1s" fill="freeze"/>
+  <rect x="678.4" y="237" width="167.6" height="27" rx="4" fill="#F0876B" fill-opacity=".07"/>
+  <line x1="678.4" y1="237" x2="678.4" y2="291" stroke="#F0876B" stroke-opacity=".35" stroke-dasharray="2 3"/>
+  <text x="684.4" y="232" class="mono" font-size="8.5" fill="#F0876B" letter-spacing=".8">two roles at once</text></g>
+<g class="mono" font-size="7.5" fill="#7C7368" text-anchor="end" letter-spacing="1">
+  <text x="86" y="256">games</text>
+  <text x="86" y="280">platform</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".4s" begin="1.5s" fill="freeze"/>
+    <rect x="92.0" y="244" width="0" height="17" rx="5" fill="#7A4F70" fill-opacity=".17" stroke="#7A4F70" stroke-opacity=".5" stroke-dasharray="3 2.5">
+      <animate attributeName="width" from="0" to="123.7" dur=".55s" begin="1.5s" fill="freeze"/></rect>
+    <text x="99.0" y="256.5" class="sans" font-size="9" font-weight="600" fill="#7A4F70">Landvault</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".4s" begin="1.6s" fill="freeze"/>
+    <rect x="259.6" y="244" width="0" height="17" rx="5" fill="#3C5B80" fill-opacity=".17" stroke="#3C5B80" stroke-opacity=".5">
+      <animate attributeName="width" from="0" to="207.4" dur=".55s" begin="1.6s" fill="freeze"/></rect>
+    <text x="266.6" y="256.5" class="sans" font-size="9" font-weight="600" fill="#3C5B80">Boltable</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".4s" begin="1.8s" fill="freeze"/>
+    <rect x="469.0" y="244" width="0" height="17" rx="5" fill="#B37F26" fill-opacity=".17" stroke="#B37F26" stroke-opacity=".5">
+      <animate attributeName="width" from="0" to="123.7" dur=".55s" begin="1.8s" fill="freeze"/></rect>
+    <text x="476.0" y="256.5" class="sans" font-size="9" font-weight="600" fill="#B37F26">Shiloh &amp; Bros</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".4s" begin="1.9s" fill="freeze"/>
+    <rect x="636.6" y="244" width="0" height="17" rx="5" fill="#C9503A" fill-opacity=".17" stroke="#C9503A" stroke-opacity=".5">
+      <animate attributeName="width" from="0" to="123.7" dur=".55s" begin="1.9s" fill="freeze"/></rect>
+    <text x="643.6" y="256.5" class="sans" font-size="9" font-weight="600" fill="#C9503A">Hi-Fun</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".4s" begin="2.0s" fill="freeze"/>
+    <rect x="804.1" y="244" width="0" height="17" rx="5" fill="#357F68" fill-opacity=".17" stroke="#357F68" stroke-opacity=".5">
+      <animate attributeName="width" from="0" to="39.9" dur=".55s" begin="2.0s" fill="freeze"/></rect>
+    <text x="811.1" y="256.5" class="sans" font-size="9" font-weight="600" fill="#357F68">Eterna</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".4s" begin="2.1s" fill="freeze"/>
+    <rect x="678.4" y="268" width="0" height="17" rx="5" fill="#357F68" fill-opacity=".17" stroke="#357F68" stroke-opacity=".5">
+      <animate attributeName="width" from="0" to="165.6" dur=".55s" begin="2.1s" fill="freeze"/></rect>
+    <text x="685.4" y="280.5" class="sans" font-size="9" font-weight="600" fill="#357F68">RBC</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".45s" begin="2.5s" fill="freeze"/>
+  <line x1="846" y1="237" x2="846" y2="291" stroke="#F0876B" stroke-width="1.5"/>
+  <circle cx="846" cy="252.5" r="3.5" fill="#F0876B"/>
+  <circle cx="846" cy="252.5" r="3.5" fill="none" stroke="#F0876B" class="halo"/>
+  <circle cx="846" cy="276.5" r="3.5" fill="#F0876B"/>
+  <circle cx="846" cy="276.5" r="3.5" fill="none" stroke="#F0876B" class="halo"/>
+  <text x="846" y="304" class="mono" font-size="9" fill="#F0876B" text-anchor="end">now</text></g>
+<g class="mono" font-size="9" fill="#7C7368">
+<text x="92.0" y="304">2023</text>
+<text x="175.8" y="304">2024</text>
+<text x="427.1" y="304">2025</text>
+<text x="678.4" y="304">2026</text>
+</g>
+</g><rect x="0.5" y="0.5" width="899" height="321" rx="14" fill="none" stroke="#38322B"/>
+</svg>
