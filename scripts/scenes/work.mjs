@@ -19,11 +19,11 @@ function gBoltable(cy, c, t) {
   const hx = GX + 10, out = [];
   out.push(fade(t, `<circle cx="${hx}" cy="${cy}" r="9" fill="${c}" fill-opacity=".18" stroke="${c}" stroke-opacity=".6"/>`));
   for (let i = 0; i < 4; i++) {
-    const ty = cy - 21 + (i % 2) * 28, tx = GX + 96 + Math.floor(i / 2) * 34;
-    const d = `M${hx + 9},${cy} C${hx + 46},${cy} ${tx - 26},${ty + 9} ${tx},${ty + 9}`;
+    const ty = cy - 17 + (i % 2) * 23, tx = GX + 96 + Math.floor(i / 2) * 30;
+    const d = `M${hx + 9},${cy} C${hx + 46},${cy} ${tx - 26},${ty + 8} ${tx},${ty + 8}`;
     out.push(fade(t + 0.1, `<path d="${d}" fill="none" stroke="${c}" stroke-opacity=".3" stroke-width="1.4"/>`));
     out.push(`<circle r="2.2" fill="${c}"><animateMotion path="${d}" dur="1.8s" begin="${n1(t + 0.4 + i * 0.22)}s" repeatCount="indefinite"/></circle>`);
-    out.push(fade(t + 0.25 + i * 0.08, tile(tx, ty, 18, c, '.16')));
+    out.push(fade(t + 0.25 + i * 0.08, tile(tx, ty, 16, c, '.16')));
   }
   return out.join('');
 }
@@ -31,9 +31,9 @@ function gBoltable(cy, c, t) {
 /** Twenty static pieces recombined into sixty levels. */
 function gShiloh(cy, c, t) {
   const out = [];
-  for (let i = 0; i < 4; i++) out.push(fade(t + i * 0.06, tile(GX + (i % 2) * 15, cy - 14 + Math.floor(i / 2) * 15, 11, c, '.16')));
+  for (let i = 0; i < 4; i++) out.push(fade(t + i * 0.06, tile(GX + (i % 2) * 14, cy - 13 + Math.floor(i / 2) * 14, 10, c, '.16')));
   out.push(fade(t + 0.3, `<path d="M${GX + 42},${cy} h16 m-5,-4 l5,4 l-5,4" fill="none" stroke="${C.ink3}" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>`));
-  for (let i = 0; i < 15; i++) out.push(fade(t + 0.42 + i * 0.035, tile(GX + 74 + (i % 5) * 13, cy - 16 + Math.floor(i / 5) * 13, 9, c, '.22')));
+  for (let i = 0; i < 15; i++) out.push(fade(t + 0.42 + i * 0.035, tile(GX + 72 + (i % 5) * 12, cy - 14 + Math.floor(i / 5) * 12, 8, c, '.22')));
   return out.join('');
 }
 
@@ -53,10 +53,10 @@ function gHifun(cy, c, t) {
 /** A gate: repositories only ship once the compliance check passes. */
 function gRbc(cy, c, t) {
   const gx = GX + 26;
-  return fade(t, `<path d="M${gx},${cy - 18} h44 v22 a22 22 0 0 1 -22 22 a22 22 0 0 1 -22 -22 z" fill="${c}" fill-opacity=".12" stroke="${c}" stroke-opacity=".55"/>`)
-    + `<path d="M${gx + 12},${cy - 1} l7 8 l14 -16" fill="none" stroke="${c}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
+  return fade(t, `<path d="M${gx},${cy - 15} h38 v18 a19 19 0 0 1 -19 19 a19 19 0 0 1 -19 -19 z" fill="${c}" fill-opacity=".12" stroke="${c}" stroke-opacity=".55"/>`)
+    + `<path d="M${gx + 10},${cy - 2} l6 7 l12 -14" fill="none" stroke="${c}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
       <animate attributeName="stroke-dashoffset" from="100" to="0" dur=".6s" begin="${n1(t + 0.35)}s" fill="freeze"/></path>`
-    + [0, 1, 2].map(i => fade(t + 0.5 + i * 0.14, `<rect x="${gx + 84}" y="${cy - 14 + i * 11}" width="${44 - i * 10}" height="4" rx="2" fill="${c}" fill-opacity=".3"/>`)).join('');
+    + [0, 1, 2].map(i => fade(t + 0.5 + i * 0.14, `<rect x="${gx + 74}" y="${cy - 12 + i * 10}" width="${40 - i * 9}" height="3.5" rx="2" fill="${c}" fill-opacity=".3"/>`)).join('');
 }
 
 /** Milestones on a roadmap, some shipped, the rest scoped. */
@@ -82,7 +82,7 @@ const ROWS = [
 
 /** Six studios, one picture each. */
 export function work() {
-  const W = 900, TOP = 96, STEP = 78, L = 48, R = 852;
+  const W = 900, TOP = 84, STEP = 58, L = 48, R = 852;
   const H = TOP + ROWS.length * STEP + 8;
   const c = card(W, H, 'workclip');
   const o = [];
@@ -91,8 +91,8 @@ export function work() {
   w(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Six studios: Landvault built four mini-games that never shipped; Boltable, 241M visits across 300+ live servers; Shiloh and Bros, 60 levels from 20 pieces; Hi-Fun, 13.8M visits shipping from CI; RBC, AI-agent governance; Eterna Online, lead on systems and roadmap.">`);
   w(`<defs><style>${FONTS}</style></defs>`);
   w(c.open);
-  w(`<text x="${L}" y="46" class="mono" font-size="10" fill="${C.ochre}" letter-spacing="2.6">WHERE I'VE WORKED</text>
-<text x="${L}" y="74" class="serif" font-size="24" font-weight="700" fill="${C.ink}">Six studios, one picture each</text>
+  w(`<text x="${L}" y="40" class="mono" font-size="10" fill="${C.ochre}" letter-spacing="2.6">WHERE I'VE WORKED</text>
+<text x="${L}" y="66" class="serif" font-size="21" font-weight="700" fill="${C.ink}">Six studios, one picture each</text>
 <line x1="${L}" y1="${TOP - 8}" x2="${R}" y2="${TOP - 8}" stroke="${C.line}"/>`);
 
   ROWS.forEach((r, i) => {

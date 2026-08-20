@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="196" viewBox="0 0 900 196" role="img" aria-label="Merge, CI build, publish through Open Cloud, players, telemetry — feeding back into what ships next.">
+<defs><style>.serif{font-family:Georgia,"Iowan Old Style","Times New Roman",serif}
+.sans{font-family:ui-sans-serif,-apple-system,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,"Courier New",monospace}</style></defs>
+<defs><clipPath id="loopclip"><rect x="1" y="1" width="898" height="194" rx="14"/></clipPath></defs>
+<g clip-path="url(#loopclip)"><rect width="900" height="196" fill="#191714"/>
+<text x="48" y="40" class="mono" font-size="10" fill="#E0A94A" letter-spacing="2.6">HOW I SHIP</text>
+<text x="48" y="66" class="serif" font-size="21" font-weight="700" fill="#F2EDE4">Nobody publishes by hand</text>
+<line x1="121" y1="116" x2="793" y2="116" stroke="#2E2A24" stroke-width="2"/>
+<circle r="3" fill="#7C7368"><animateMotion path="M121,116 H793" dur="4.2s" begin="0.00s" repeatCount="indefinite"/></circle>
+<circle r="3" fill="#7C7368"><animateMotion path="M121,116 H793" dur="4.2s" begin="1.40s" repeatCount="indefinite"/></circle>
+<circle r="3" fill="#7C7368"><animateMotion path="M121,116 H793" dur="4.2s" begin="2.80s" repeatCount="indefinite"/></circle>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".45s" begin="0.25s" fill="freeze"/>
+    <rect x="48" y="95" width="146" height="42" rx="9" fill="#191714"/>
+    <rect x="48" y="95" width="146" height="42" rx="9" fill="#7A4F70" fill-opacity=".10" stroke="#7A4F70" stroke-opacity=".45"/>
+    <text x="64" y="114" class="sans" font-size="12.5" font-weight="600" fill="#F2EDE4">merge</text>
+    <text x="64" y="128" class="mono" font-size="8.5" fill="#7C7368">PR review</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".45s" begin="0.41s" fill="freeze"/>
+    <rect x="216" y="95" width="146" height="42" rx="9" fill="#191714"/>
+    <rect x="216" y="95" width="146" height="42" rx="9" fill="#3C5B80" fill-opacity=".10" stroke="#3C5B80" stroke-opacity=".45"/>
+    <text x="232" y="114" class="sans" font-size="12.5" font-weight="600" fill="#F2EDE4">CI build</text>
+    <text x="232" y="128" class="mono" font-size="8.5" fill="#7C7368">roblox-ts</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".45s" begin="0.57s" fill="freeze"/>
+    <rect x="384" y="95" width="146" height="42" rx="9" fill="#191714"/>
+    <rect x="384" y="95" width="146" height="42" rx="9" fill="#357F68" fill-opacity=".10" stroke="#357F68" stroke-opacity=".45"/>
+    <text x="400" y="114" class="sans" font-size="12.5" font-weight="600" fill="#F2EDE4">publish</text>
+    <text x="400" y="128" class="mono" font-size="8.5" fill="#7C7368">Open Cloud</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".45s" begin="0.73s" fill="freeze"/>
+    <rect x="552" y="95" width="146" height="42" rx="9" fill="#191714"/>
+    <rect x="552" y="95" width="146" height="42" rx="9" fill="#B37F26" fill-opacity=".10" stroke="#B37F26" stroke-opacity=".45"/>
+    <text x="568" y="114" class="sans" font-size="12.5" font-weight="600" fill="#F2EDE4">players</text>
+    <text x="568" y="128" class="mono" font-size="8.5" fill="#7C7368">live places</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".45s" begin="0.89s" fill="freeze"/>
+    <rect x="720" y="95" width="146" height="42" rx="9" fill="#191714"/>
+    <rect x="720" y="95" width="146" height="42" rx="9" fill="#C9503A" fill-opacity=".10" stroke="#C9503A" stroke-opacity=".45"/>
+    <text x="736" y="114" class="sans" font-size="12.5" font-weight="600" fill="#F2EDE4">telemetry</text>
+    <text x="736" y="128" class="mono" font-size="8.5" fill="#7C7368">funnel</text></g>
+<path d="M793,140 C793,168 640,176 450,176 C260,176 121,168 121,140" fill="none" stroke="#2E2A24" stroke-width="2" stroke-dasharray="5 5"/>
+<path d="M117,146 l4,-6 l4,6" fill="none" stroke="#7C7368" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle r="2.8" fill="#F0876B"><animateMotion path="M793,140 C793,168 640,176 450,176 C260,176 121,168 121,140" dur="5s" begin="1.4s" repeatCount="indefinite"/></circle>
+<text x="450" y="184" class="mono" font-size="9" fill="#7C7368" text-anchor="middle" letter-spacing="1.6">THE NUMBERS PICK WHAT IS NEXT</text>
+</g><rect x="0.5" y="0.5" width="899" height="195" rx="14" fill="none" stroke="#38322B"/>
+</svg>
