@@ -6,7 +6,7 @@
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'node:fs';
 import { GAMES, UNSHIPPED } from './data.mjs';
 import { M, setTheme } from './kit.mjs';
-import { heroCard } from './scenes/card.mjs';
+import { heroCard, heroCardNarrow } from './scenes/card.mjs';
 import { titles } from './scenes/titles.mjs';
 import { work } from './scenes/work.mjs';
 import { tree } from './scenes/tree.mjs';
@@ -59,6 +59,7 @@ for (const theme of ['light', 'dark']) {
   setTheme(theme);
   const sfx = theme === 'dark' ? '-dark' : '';
   writeFileSync(`assets/card${sfx}.svg`, heroCard(total, GAMES.length));
+  writeFileSync(`assets/card-narrow${sfx}.svg`, heroCardNarrow(total, GAMES.length));
   writeFileSync(`assets/titles${sfx}.svg`, titles(GAMES, UNSHIPPED, stamp));
   writeFileSync(`assets/work${sfx}.svg`, work());
   writeFileSync(`assets/tree${sfx}.svg`, tree());

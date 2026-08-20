@@ -97,3 +97,56 @@ export function heroCard(total, shipped) {
   w('</svg>');
   return o.join('\n');
 }
+
+/**
+ * Narrow hero for phones. Not a scaled-down copy — a different layout.
+ * The 36-month Gantt is dropped entirely: at 440px it renders bars a few pixels
+ * wide with unreadable labels, and the markdown role list below carries the same
+ * information. Type is at native size so nothing shrinks below legibility.
+ */
+export function heroCardNarrow(total, shipped) {
+  const W = 440, H = 302, L = 26, R = W - 26;
+  const c = card(W, H, 'cardnclip');
+  const o = [];
+  const w = s => o.push(s);
+
+  w(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Alaqmar Gandhi — live-ops and platform engineering. ${shipped} shipped titles across five studios, three years, ${M(total)} lifetime visits. Two current roles.">`);
+  w(`<defs><style>${FONTS}
+    .halo{animation:halo 2.6s ease-out infinite}@keyframes halo{0%{r:4;opacity:.55}70%,100%{r:11;opacity:0}}
+  </style></defs>`);
+  w(c.open);
+
+  w(`<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".6s" begin=".15s" fill="freeze"/>
+  <text x="${L}" y="40" class="mono" font-size="8.5" fill="${C.ochre}" letter-spacing="2">LIVE-OPS &#183; PLATFORM ENGINEERING</text>
+  <text x="${L}" y="80" class="serif" font-size="31" font-weight="700" fill="${C.ink}" letter-spacing="-.4">Alaqmar Gandhi</text>
+  <text x="${L}" y="106" class="sans" font-size="12.5" fill="${C.ink2}">Six shipped Roblox titles across five studios,</text>
+  <text x="${L}" y="124" class="sans" font-size="12.5" fill="${C.ink2}">and one game that never came out.</text></g>`);
+
+  w(`<line x1="${L}" y1="146" x2="${R}" y2="146" stroke="${C.line}"/>`);
+
+  const cells = [
+    { label: 'SHIPPED TITLES', color: C.mint,  value: String(shipped) },
+    { label: 'GAME STUDIOS',   color: C.blue,  value: '5' },
+    { label: 'YEARS SHIPPING', color: C.ochre, value: '3' },
+    { label: 'LIFETIME VISITS', color: C.coral, count: total },
+  ];
+  w(`<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin=".8s" fill="freeze"/>`);
+  cells.forEach((s, i) => {
+    const x = L + (i % 2) * 208, y = 186 + Math.floor(i / 2) * 56;
+    w(s.count != null
+      ? odometer(s.count, { x, y, cls: 'serif', size: 25, weight: 700, fill: s.color, begin: 0.9, step: 0.08, fmt: M })
+      : `<text x="${x}" y="${y}" class="serif" font-size="25" font-weight="700" fill="${s.color}">${s.value}</text>`);
+    w(`<text x="${x}" y="${y + 17}" class="mono" font-size="8.5" fill="${C.ink3}" letter-spacing="1.2">${s.label}</text>`);
+  });
+  w(`</g>`);
+
+  w(`<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin="1.6s" fill="freeze"/>
+  <line x1="${L}" y1="268" x2="${R}" y2="268" stroke="${C.line}"/>
+  <circle cx="${L + 5}" cy="288" r="3.4" fill="${C.coral}"/>
+  <circle cx="${L + 5}" cy="288" r="3.4" fill="none" stroke="${C.coral}" class="halo"/>
+  <text x="${L + 17}" y="291" class="mono" font-size="9.5" fill="${C.ink2}">Sep 2023 &#8594; now &#183; two roles running at once</text></g>`);
+
+  w(c.close);
+  w('</svg>');
+  return o.join('\n');
+}
