@@ -1,8 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="93" height="30" viewBox="0 0 93 30" role="img" aria-label="LinkedIn">
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="32" viewBox="0 0 110 32" role="img" aria-label="LinkedIn (link)">
 <defs><style>.serif{font-family:Georgia,"Iowan Old Style","Times New Roman",serif}
 .sans{font-family:ui-sans-serif,-apple-system,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
 .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,"Courier New",monospace}</style></defs>
-<rect x="0.5" y="0.5" width="92" height="29" rx="14.5" fill="#5BBE9C" fill-opacity=".10" stroke="#5BBE9C" stroke-opacity=".34"/>
-<circle cx="15" cy="15" r="3.2" fill="#5BBE9C"/>
-<text x="26" y="19" class="sans" font-size="11.5" font-weight="600" fill="#F2EDE4">LinkedIn</text>
+<rect x="0.5" y="0.5" width="109" height="31" rx="15.5" fill="#5BBE9C" fill-opacity=".15" stroke="#5BBE9C" stroke-opacity=".55"/>
+<circle cx="15" cy="16" r="3.2" fill="#5BBE9C" fill-opacity="1"/>
+<text x="27" y="20" class="sans" font-size="11.5" font-weight="600" fill="#F2EDE4">LinkedIn</text>
+<line x1="27" y1="23.5" x2="77.2" y2="23.5" stroke="#5BBE9C" stroke-opacity=".55"/>
+<g stroke="#5BBE9C" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(88.2,11)">
+      <path d="M0,7 L7,0 M2.6,0 H7 V4.4"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;1.6 -1.6;0 0" dur="2.4s" repeatCount="indefinite" additive="sum"/>
+    </g></g>
 </svg>
