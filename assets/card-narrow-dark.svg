@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="302" viewBox="0 0 440 302" role="img" aria-label="Alaqmar Gandhi — live-ops and platform engineering. 6 shipped titles across five studios, three years, 260.5M lifetime visits. Two current roles.">
+<defs><style>.serif{font-family:Georgia,"Iowan Old Style","Times New Roman",serif}
+.sans{font-family:ui-sans-serif,-apple-system,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,"Courier New",monospace}
+    .halo{animation:halo 2.6s ease-out infinite}@keyframes halo{0%{r:4;opacity:.55}70%,100%{r:11;opacity:0}}
+  </style></defs>
+<defs><clipPath id="cardnclip"><rect x="1" y="1" width="438" height="300" rx="14"/></clipPath></defs>
+<g clip-path="url(#cardnclip)"><rect width="440" height="302" fill="#191714"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".6s" begin=".15s" fill="freeze"/>
+  <text x="26" y="40" class="mono" font-size="8.5" fill="#E0A94A" letter-spacing="2">LIVE-OPS &#183; PLATFORM ENGINEERING</text>
+  <text x="26" y="80" class="serif" font-size="31" font-weight="700" fill="#F2EDE4" letter-spacing="-.4">Alaqmar Gandhi</text>
+  <text x="26" y="106" class="sans" font-size="12.5" fill="#B8AFA2">Six shipped Roblox titles across five studios,</text>
+  <text x="26" y="124" class="sans" font-size="12.5" fill="#B8AFA2">and one game that never came out.</text></g>
+<line x1="26" y1="146" x2="414" y2="146" stroke="#2E2A24"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin=".8s" fill="freeze"/>
+<text x="26" y="186" class="serif" font-size="25" font-weight="700" fill="#5BBE9C">6</text>
+<text x="26" y="203" class="mono" font-size="8.5" fill="#7C7368" letter-spacing="1.2">SHIPPED TITLES</text>
+<text x="234" y="186" class="serif" font-size="25" font-weight="700" fill="#7BA3CE">5</text>
+<text x="234" y="203" class="mono" font-size="8.5" fill="#7C7368" letter-spacing="1.2">GAME STUDIOS</text>
+<text x="26" y="242" class="serif" font-size="25" font-weight="700" fill="#E0A94A">3</text>
+<text x="26" y="259" class="mono" font-size="8.5" fill="#7C7368" letter-spacing="1.2">YEARS SHIPPING</text>
+<text x="234" y="242" class="serif" font-size="25" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">70.6M<animate attributeName="opacity" values="1;1" begin="0.98s" dur="0.08s"/></text><text x="234" y="242" class="serif" font-size="25" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">127.1M<animate attributeName="opacity" values="1;1" begin="1.06s" dur="0.08s"/></text><text x="234" y="242" class="serif" font-size="25" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">171.2M<animate attributeName="opacity" values="1;1" begin="1.14s" dur="0.08s"/></text><text x="234" y="242" class="serif" font-size="25" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">204.3M<animate attributeName="opacity" values="1;1" begin="1.22s" dur="0.08s"/></text><text x="234" y="242" class="serif" font-size="25" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">228.0M<animate attributeName="opacity" values="1;1" begin="1.30s" dur="0.08s"/></text><text x="234" y="242" class="serif" font-size="25" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">243.9M<animate attributeName="opacity" values="1;1" begin="1.38s" dur="0.08s"/></text><text x="234" y="242" class="serif" font-size="25" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">253.5M<animate attributeName="opacity" values="1;1" begin="1.46s" dur="0.08s"/></text><text x="234" y="242" class="serif" font-size="25" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">258.5M<animate attributeName="opacity" values="1;1" begin="1.54s" dur="0.08s"/></text><text x="234" y="242" class="serif" font-size="25" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">260.3M<animate attributeName="opacity" values="1;1" begin="1.62s" dur="0.08s"/></text><text x="234" y="242" class="serif" font-size="25" font-weight="700" fill="#F0876B" text-anchor="start" opacity="0">260.5M<animate attributeName="opacity" to="1" begin="1.70s" dur=".1s" fill="freeze"/></text>
+<text x="234" y="259" class="mono" font-size="8.5" fill="#7C7368" letter-spacing="1.2">LIFETIME VISITS</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin="1.6s" fill="freeze"/>
+  <line x1="26" y1="268" x2="414" y2="268" stroke="#2E2A24"/>
+  <circle cx="31" cy="288" r="3.4" fill="#F0876B"/>
+  <circle cx="31" cy="288" r="3.4" fill="none" stroke="#F0876B" class="halo"/>
+  <text x="43" y="291" class="mono" font-size="9.5" fill="#B8AFA2">Sep 2023 &#8594; now &#183; two roles running at once</text></g>
+</g><rect x="0.5" y="0.5" width="439" height="301" rx="14" fill="none" stroke="#38322B"/>
+</svg>

@@ -1,6 +1,8 @@
 <div align="center">
 
 <picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/card-narrow-dark.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/card-narrow.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/card-dark.svg">
   <img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/card.svg" alt="Alaqmar Gandhi — live-ops and platform engineering. Six shipped Roblox titles across five studios, three years, 260M lifetime visits. Hi-Fun overlapped RBC, and Eterna Online and RBC are both current.">
 </picture>
@@ -15,22 +17,17 @@
 
 ## Live-ops and platform engineering
 
-I build the systems that keep live games running, and the pipelines that ship them. Six
-titles shipped across five studios since September 2023 — the first contract started three
-weeks before my first university lecture — alongside a DevOps co-op at **Royal Bank of
-Canada** building an AI-agent governance platform.
+I build the systems that keep live games running and the pipelines that ship them. Six titles
+across five studios since September 2023 — the first contract started three weeks before my
+first university lecture — alongside a DevOps co-op at **Royal Bank of Canada** on an AI-agent
+governance platform. Same job either way: ship from CI, measure what players do, let the
+numbers pick what is next.
 
-Both halves are the same job. Ship from CI so nobody publishes by hand, measure what real
-users do, let the numbers pick what is next. On Roblox that is Mantle and Open Cloud pushing
-updates into live places; at a bank it is Cosign signing and release gates keeping unsigned
-builds out of production.
-
-**Currently:** Lead Developer at **Eterna Online** (MMO RPG in development, selected into
-[Roblox Jumpstart](https://about.roblox.com/newsroom/2026/03/roblox-announces-incubator-jumpstart-creator-programs))
-and DevOps Developer at **RBC**. Both since 2026.
-
-**Open to** live-ops and platform engineering roles, games or otherwise.
-[Email](mailto:alaqmargandhi@gmail.com) is fastest.
+**Now** — Lead Developer at **Eterna Online** (MMO RPG in development, selected into
+[Roblox Jumpstart](https://about.roblox.com/newsroom/2026/03/roblox-announces-incubator-jumpstart-creator-programs)),
+and DevOps Developer at **RBC**. Both current.
+**Open to** live-ops and platform engineering roles, games or otherwise —
+[email](mailto:alaqmargandhi@gmail.com) is fastest.
 
 ## Where I've worked
 
@@ -39,30 +36,12 @@ and DevOps Developer at **RBC**. Both since 2026.
   <img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/work.svg" alt="Six studios: Landvault, four mini-games that never shipped; Boltable, 241M visits across 300+ live servers; Shiloh and Bros, 60 levels from 20 pieces; Hi-Fun, 13.8M visits shipping from CI; RBC, AI-agent governance; Eterna Online, lead on systems and roadmap.">
 </picture>
 
-- **Eterna Online** — Lead Developer, Jul 2026 – now. Systems and roadmap on an MMO RPG in
-  development: scoping work into milestones, setting build priorities, deciding what ships
-  each cycle. `roblox-ts`, Flamework, Rojo, TestEZ.
-- **Royal Bank of Canada** — DevOps Developer, co-op, Jan 2026 – now, Toronto. Event-driven
-  compliance gates for repositories running agentic workflows, JSON Schema validation of
-  agent manifests, an SBOM-parsing CronJob feeding an agent-enabled repo inventory into
-  Elasticsearch, Cosign artifact signing, and pipeline gates blocking non-release-branch
-  artifacts from release deployments.
-- **Hi-Fun Interactive** — Game Developer, contract, Nov 2025 – Apr 2026. Game UI, core
-  backend and gameplay systems on an in-house ECS, plus the continuous deployment pipeline —
-  Mantle, Roblox Open Cloud, DarkLua, Lune, GitHub Actions — so updates reach live places
-  from a merged pull request.
-- **Shiloh & Bros** — Game Developer, contract, Mar – Aug 2025. Procedural map generation
-  producing 60 levels from 20 static elements, NPC behaviour trees, queuing and matchmaking,
-  and the funnel instrumentation that isolated a 30% churn point and a 20% drop in step
-  completion. Rebalancing around it lifted payer conversion 62.5%.
-- **Boltable Studio** — Software Developer, co-op then contract, May 2024 – Feb 2025, Abu
-  Dhabi. Live-ops across the studio portfolio — release cadence, economy tuning, telemetry —
-  on an ASP.NET Core backend handling 2M+ requests a month across 300+ live game servers,
-  plus a Luau state synchronisation system that cut reconciliation errors 58%.
-- **Landvault** — Game Developer, contract, Sep 2023 – Feb 2024, London. Physics, player
-  controls and the interface layer across four procedurally generated mini-games for a Pudgy
-  Penguins title, and introduced Wally so shared code lived in versioned packages.
-  **It never shipped.**
+- **Eterna Online** — Lead Developer, Jul 2026–now. Systems and roadmap on an MMO RPG in development. `roblox-ts`, Flamework, Rojo.
+- **Royal Bank of Canada** — DevOps Developer, co-op, Jan 2026–now, Toronto. Compliance gates for repos running agentic workflows, SBOM inventory into Elasticsearch, Cosign signing, release-branch gates.
+- **Hi-Fun Interactive** — Game Developer, Nov 2025–Apr 2026. Game UI, core backend and gameplay on an in-house ECS, plus the CD pipeline: Mantle, Open Cloud, DarkLua, Lune, GitHub Actions.
+- **Shiloh & Bros** — Game Developer, Mar–Aug 2025. 60 levels from 20 static elements, NPC behaviour trees, matchmaking, and the funnel work that lifted payer conversion 62.5%.
+- **Boltable Studio** — Software Developer, May 2024–Feb 2025, Abu Dhabi. Live-ops across the portfolio on an ASP.NET Core backend at 2M+ requests a month across 300+ live servers.
+- **Landvault** — Game Developer, Sep 2023–Feb 2024, London. Physics, player controls and UI across four procedurally generated mini-games for a Pudgy Penguins title. **It never shipped.**
 
 ## What I've shipped
 
@@ -70,6 +49,8 @@ and DevOps Developer at **RBC**. Both since 2026.
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/titles-dark.svg">
   <img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/titles.svg" alt="Shipped Roblox titles by lifetime visits, plus two projects with no visits.">
 </picture>
+
+<div align="center">
 
 <!-- TITLES:START -->
 | Title | Studio | What I built | Visits |
@@ -84,11 +65,9 @@ and DevOps Developer at **RBC**. Both since 2026.
 | Eterna Online | Lead Developer | MMO RPG · Roblox Jumpstart | *in development* |
 <!-- TITLES:END -->
 
-Visit counts are read from Roblox's public API by
-[a workflow in this repo](https://github.com/AlaqmarG/AlaqmarG/blob/main/.github/workflows/refresh-stats.yml)
-and committed daily — nothing here is typed by hand, and every number is one `curl` away
-from being checked. Full credits on my
-[Roblox Talent Hub](https://create.roblox.com/talent/creators/346676728).
+</div>
+
+Counts come from Roblox's public API via [a workflow in this repo](https://github.com/AlaqmarG/AlaqmarG/blob/main/.github/workflows/refresh-stats.yml), committed daily — every number is one `curl` from being checked. Full credits on my [Roblox Talent Hub](https://create.roblox.com/talent/creators/346676728).
 
 ## What I work with
 
