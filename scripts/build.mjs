@@ -3,7 +3,7 @@
  * Regenerates the SVGs in assets/ from live Roblox data.
  * No dependencies. Falls back to the baked-in figures in data.mjs if the API is unreachable.
  */
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'node:fs';
 import { GAMES, UNSHIPPED } from './data.mjs';
 import { M, setTheme } from './kit.mjs';
 import { heroCard } from './scenes/card.mjs';
@@ -32,6 +32,24 @@ async function refresh() {
   }
 }
 
+
+/** Keep the markdown table in step with the SVGs — same source, same refresh. */
+function injectTitlesTable() {
+  if (!existsSync('README.md')) return;
+  const rows = [...GAMES].sort((a, b) => b.visits - a.visits);
+  const lines = [
+    '| Title | Studio | What I built | Visits |',
+    '|---|---|---|---|',
+    ...rows.map(g => `| [${g.name}](https://www.roblox.com/games/${g.placeId}/) | ${g.studio} | ${g.note} | **${M(g.visits)}** |`),
+    ...UNSHIPPED.map(u => `| ${u.name} | ${u.studio} | ${u.note} | *${u.status}* |`),
+  ];
+  const md = readFileSync('README.md', 'utf8');
+  const next = md.replace(
+    /<!-- TITLES:START -->[\s\S]*?<!-- TITLES:END -->/,
+    `<!-- TITLES:START -->\n${lines.join('\n')}\n<!-- TITLES:END -->`);
+  if (next !== md) { writeFileSync('README.md', next); console.log('README titles table refreshed'); }
+}
+
 await refresh();
 const total = GAMES.reduce((a, g) => a + g.visits, 0);
 const stamp = new Date().toISOString().slice(0, 10);
@@ -47,4 +65,5 @@ for (const theme of ['light', 'dark']) {
   writeFileSync(`assets/loop${sfx}.svg`, loop());
   for (const b of BADGES) writeFileSync(`assets/badge-${b.id}${sfx}.svg`, badge(b));
 }
+injectTitlesTable();
 console.log(`wrote 5 scenes + ${BADGES.length} badges x 2 themes — ${M(total)} lifetime visits (${stamp})`);

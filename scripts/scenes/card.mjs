@@ -28,7 +28,7 @@ export function heroCard(total, shipped) {
   w(c.open);
 
   w(`<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".6s" begin=".15s" fill="freeze"/>
-  <text x="${L}" y="46" class="mono" font-size="10" fill="${C.ochre}" letter-spacing="2.6">GAME DEVELOPER &#183; PLATFORM ENGINEER &#183; LIVE-OPS</text>
+  <text x="${L}" y="46" class="mono" font-size="10" fill="${C.ochre}" letter-spacing="2.6">LIVE-OPS &#183; PLATFORM ENGINEERING &#183; GAME DEVELOPMENT</text>
   <text x="${L}" y="90" class="serif" font-size="38" font-weight="700" fill="${C.ink}" letter-spacing="-.6">Alaqmar Gandhi</text></g>`);
 
   w(`<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".6s" begin=".5s" fill="freeze"/>
@@ -38,10 +38,10 @@ export function heroCard(total, shipped) {
   w(`<line x1="${L}" y1="156" x2="${R}" y2="156" stroke="${C.line}"/>`);
 
   const stats = [
-    { x: L,   label: 'LIFETIME VISITS', color: C.coral, count: total },
-    { x: 258, label: 'SHIPPED TITLES',  color: C.mint,  value: String(shipped) },
-    { x: 460, label: 'STUDIOS',         color: C.blue,  value: '6' },
-    { x: 662, label: 'YEARS SHIPPING',  color: C.ochre, value: '3' },
+    { x: L,   label: 'SHIPPED TITLES',  color: C.mint,  value: String(shipped) },
+    { x: 258, label: 'GAME STUDIOS',    color: C.blue,  value: '5' },
+    { x: 460, label: 'YEARS SHIPPING',  color: C.ochre, value: '3' },
+    { x: 662, label: 'LIFETIME VISITS', color: C.coral, count: total },
   ];
   w(`<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin=".9s" fill="freeze"/>`);
   for (const s of stats) {
