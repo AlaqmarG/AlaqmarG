@@ -9,7 +9,7 @@ const ROLES = [
   { name: 'Eterna',        m0: 34, m1: 36, lane: 0, color: C.mint, live: true },
   { name: 'RBC',           m0: 28, m1: 36, lane: 1, color: C.mint, live: true },
 ];
-const YEARS = [['2023', 0], ['2024', 4], ['2025', 16], ['2026', 28]];
+const YEARS = [['2024', 4], ['2025', 16], ['2026', 28]];
 const MONTHS = 36, X0 = 92, X1 = 846;
 const px = m => X0 + (m / MONTHS) * (X1 - X0);
 const LANE_Y = [244, 268], BH = 17;
@@ -46,7 +46,7 @@ export function heroCard(total, shipped) {
   w(`<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin=".9s" fill="freeze"/>`);
   for (const s of stats) {
     w(s.count != null
-      ? odometer(s.count, { x: s.x, y: 210, cls: 'serif', size: 27, weight: 700, fill: s.color, begin: 1.0, step: 0.08, fmt: M })
+      ? odometer(s.count, { x: s.x, y: 194, cls: 'serif', size: 27, weight: 700, fill: s.color, begin: 1.0, step: 0.08, fmt: M })
       : `<text x="${s.x}" y="194" class="serif" font-size="27" font-weight="700" fill="${s.color}">${s.value}</text>`);
     w(`<text x="${s.x}" y="214" class="mono" font-size="9" fill="${C.ink3}" letter-spacing="1.5">${s.label}</text>`);
   }
@@ -80,11 +80,18 @@ export function heroCard(total, shipped) {
   <circle cx="${X1}" cy="${LANE_Y[0] + BH / 2}" r="3.5" fill="none" stroke="${C.coral}" class="halo"/>
   <circle cx="${X1}" cy="${LANE_Y[1] + BH / 2}" r="3.5" fill="${C.coral}"/>
   <circle cx="${X1}" cy="${LANE_Y[1] + BH / 2}" r="3.5" fill="none" stroke="${C.coral}" class="halo"/>
-  <text x="${X1}" y="304" class="mono" font-size="9" fill="${C.coral}" text-anchor="end">now</text></g>`);
+  <text x="${X1}" y="${LANE_Y[1] + BH + 22}" class="mono" font-size="9" fill="${C.coral}" text-anchor="end">now</text></g>`);
 
+  // gridlines at each January, plus an explicit start label — without them the
+  // Sep-2023 origin makes the first year look compressed
+  const AXIS = LANE_Y[1] + BH + 7;
+  w(`<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin="1.4s" fill="freeze"/>`);
+  for (const [, m] of YEARS) w(`<line x1="${n1(px(m))}" y1="237" x2="${n1(px(m))}" y2="${AXIS}" stroke="${C.line}"/>`);
+  w(`<line x1="${X0}" y1="${AXIS}" x2="${X1}" y2="${AXIS}" stroke="${C.line}"/>`);
   w(`<g class="mono" font-size="9" fill="${C.ink3}">`);
-  for (const [label, m] of YEARS) w(`<text x="${n1(px(m))}" y="304">${label}</text>`);
-  w(`</g>`);
+  w(`<text x="${X0}" y="${AXIS + 15}">Sep 2023</text>`);
+  for (const [label, m] of YEARS) w(`<text x="${n1(px(m))}" y="${AXIS + 15}" text-anchor="middle">Jan ${label}</text>`);
+  w(`</g></g>`);
 
   w(c.close);
   w('</svg>');
