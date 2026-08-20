@@ -8,6 +8,9 @@ import { GAMES, UNSHIPPED } from './data.mjs';
 import { M } from './kit.mjs';
 import { heroCard } from './scenes/card.mjs';
 import { titles } from './scenes/titles.mjs';
+import { work } from './scenes/work.mjs';
+import { tree } from './scenes/tree.mjs';
+import { loop } from './scenes/loop.mjs';
 
 async function refresh() {
   const ids = GAMES.map(g => g.universeId).join(',');
@@ -35,4 +38,7 @@ const stamp = new Date().toISOString().slice(0, 10);
 mkdirSync('assets', { recursive: true });
 writeFileSync('assets/card.svg', heroCard(total, GAMES.length));
 writeFileSync('assets/titles.svg', titles(GAMES, UNSHIPPED, stamp));
-console.log(`wrote card.svg, titles.svg — ${M(total)} lifetime visits (${stamp})`);
+writeFileSync('assets/work.svg', work());
+writeFileSync('assets/tree.svg', tree());
+writeFileSync('assets/loop.svg', loop());
+console.log(`wrote card, work, titles, tree, loop — ${M(total)} lifetime visits (${stamp})`);
