@@ -4,7 +4,7 @@
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/card-narrow-dark.svg">
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/card-narrow.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/card-dark.svg">
-  <img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/card.svg" alt="Alaqmar Gandhi — live-ops and platform engineering. Six shipped Roblox titles across five studios, three years, 260M lifetime visits. Hi-Fun overlapped RBC, and Eterna Online and RBC are both current.">
+  <img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/card.svg" alt="Alaqmar Gandhi — live-ops and platform engineering. Six shipped Roblox titles across five studios, three years, 260M lifetime visits. Anime Overload overlapped RBC, and Eterna Online and RBC are both current.">
 </picture>
 
 <a href="https://create.roblox.com/talent/creators/346676728"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/badge-talenthub-dark.svg"><img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/badge-talenthub.svg" alt="Roblox Talent Hub"></picture></a>
@@ -33,12 +33,12 @@ and DevOps Developer at **RBC**. Both current.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/work-dark.svg">
-  <img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/work.svg" alt="Six studios: Landvault, four mini-games that never shipped; Boltable, 241M visits across 300+ live servers; Shiloh and Bros, 60 levels from 20 pieces; Hi-Fun, 13.8M visits shipping from CI; RBC, AI-agent governance; Eterna Online, lead on systems and roadmap.">
+  <img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/work.svg" alt="Six roles: Landvault, four mini-games that never shipped; Boltable, 241M visits across 300+ live servers; Shiloh and Bros, 60 levels from 20 pieces; Anime Overload, 13.8M visits shipping from CI; RBC, AI-agent governance; Eterna Online, lead on systems and roadmap.">
 </picture>
 
 - **Eterna Online** — Lead Developer, Jul 2026–now. Systems and roadmap on an MMO RPG in development. `roblox-ts`, Flamework, Rojo.
 - **Royal Bank of Canada** — DevOps Developer, co-op, Jan 2026–now, Toronto. Compliance gates for repos running agentic workflows, SBOM inventory into Elasticsearch, Cosign signing, release-branch gates.
-- **Hi-Fun Interactive** — Game Developer, Nov 2025–Apr 2026. Shipped [**Anime Overload!**](https://www.roblox.com/games/126297188712308/): game UI, core backend and gameplay on an in-house ECS, plus the CD pipeline — Mantle, Open Cloud, DarkLua, Lune, GitHub Actions.
+- **[Anime Overload!](https://www.roblox.com/games/126297188712308/)** — Game Developer, contract, Nov 2025–Apr 2026. Game UI, core backend and gameplay on an in-house ECS, plus the CD pipeline: Mantle, Open Cloud, DarkLua, Lune, GitHub Actions.
 - **Shiloh & Bros** — Game Developer, Mar–Aug 2025. 60 levels from 20 static elements, NPC behaviour trees, matchmaking, and the funnel work that lifted payer conversion 62.5%.
 - **Boltable Studio** — Software Developer, May 2024–Feb 2025, Abu Dhabi. Live-ops across the portfolio on an ASP.NET Core backend at 2M+ requests a month across 300+ live servers.
 - **Landvault** — Game Developer, Sep 2023–Feb 2024, London. Physics, player controls and UI across four procedurally generated mini-games for a Pudgy Penguins title. **It never shipped.**
@@ -59,7 +59,7 @@ and DevOps Developer at **RBC**. Both current.
 | [Team Obby](https://www.roblox.com/games/14400224477/) | Boltable Studio | Advertising & UGC purchase systems | **87.7M** |
 | [The Creepy Elevator](https://www.roblox.com/games/16428744594/) | Boltable Studio | Timed rewards & currency payouts | **38.2M** |
 | [GOAL CLASH](https://www.roblox.com/games/120011342431989/) | Boltable × Club Brugge | Ball physics, controls, full UI & VFX | **28.1M** |
-| [Anime Overload!](https://www.roblox.com/games/126297188712308/) | Hi-Fun Interactive | ECS gameplay, backend, CD pipeline | **13.9M** |
+| [Anime Overload!](https://www.roblox.com/games/126297188712308/) | Contract | ECS gameplay, backend, CD pipeline | **13.9M** |
 | [Escape The Labryn](https://www.roblox.com/games/86053660293681/) | Shiloh & Bros | 60 levels from 20 static elements | **4.5M** |
 | Pudgy Penguins | Landvault | 4 procedural mini-games · physics, controls, UI | *never shipped* |
 | Eterna Online | Lead Developer | MMO RPG · Roblox Jumpstart | *in development* |
