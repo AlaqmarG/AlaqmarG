@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="322" viewBox="0 0 900 322" role="img" aria-label="Alaqmar Gandhi — game developer, platform engineer, live-ops. 262.6M lifetime visits across 6 shipped titles, six studios, three years. Landvault, Boltable, Shiloh and Bros and Hi-Fun (Anime Overload!) on the games track; Royal Bank of Canada on the platform track. Hi-Fun overlapped RBC, and Eterna Online and RBC are both current.">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="322" viewBox="0 0 900 322" role="img" aria-label="Alaqmar Gandhi — game developer, platform engineer, live-ops. 262.6M lifetime visits across 6 shipped titles, six roles, three years. Landvault, Boltable, Shiloh and Bros and Anime Overload on the games track; Royal Bank of Canada on the platform track. Anime Overload overlapped RBC, and Eterna Online and RBC are both current.">
 <defs><style>.serif{font-family:Georgia,"Iowan Old Style","Times New Roman",serif}
 .sans{font-family:ui-sans-serif,-apple-system,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
 .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,"Courier New",monospace}
@@ -45,7 +45,7 @@
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".4s" begin="1.9s" fill="freeze"/>
     <rect x="636.6" y="244" width="0" height="17" rx="5" fill="#C9503A" fill-opacity=".17" stroke="#C9503A" stroke-opacity=".5">
       <animate attributeName="width" from="0" to="123.7" dur=".55s" begin="1.9s" fill="freeze"/></rect>
-    <text x="643.6" y="256.5" class="sans" font-size="9" font-weight="600" fill="#C9503A">Hi-Fun</text></g>
+    <text x="643.6" y="256.5" class="sans" font-size="9" font-weight="600" fill="#C9503A">Anime Overload</text></g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".4s" begin="2.0s" fill="freeze"/>
     <rect x="804.1" y="244" width="0" height="17" rx="5" fill="#357F68" fill-opacity=".17" stroke="#357F68" stroke-opacity=".5">
       <animate attributeName="width" from="0" to="39.9" dur=".55s" begin="2.0s" fill="freeze"/></rect>

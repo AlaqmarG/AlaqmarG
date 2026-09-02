@@ -38,7 +38,7 @@ function gShiloh(cy, c, t) {
 }
 
 /** A merged pull request reaching a live place without anyone opening Studio. */
-function gHifun(cy, c, t) {
+function gAnimeOverload(cy, c, t) {
   const out = [], xs = [GX, GX + 66, GX + 132];
   const labels = ['PR', 'CI', 'live'];
   xs.forEach((x, i) => {
@@ -75,12 +75,12 @@ const ROWS = [
   { name: 'Landvault',     dates: 'Sep 2023 — Feb 2024',  color: C.plum,  glyph: gLandvault, note: '4 mini-games · never shipped' },
   { name: 'Boltable',      dates: 'May 2024 — Feb 2025',  color: C.blue,  glyph: gBoltable,  note: '241M visits · 300+ live servers' },
   { name: 'Shiloh & Bros', dates: 'Mar 2025 — Aug 2025',  color: C.ochre, glyph: gShiloh,    note: '60 levels from 20 pieces' },
-  { name: 'Hi-Fun',        dates: 'Nov 2025 — Apr 2026',  color: C.coral, glyph: gHifun,     note: 'Anime Overload! · 13.8M visits' },
+  { name: 'Anime Overload', dates: 'Nov 2025 — Apr 2026', color: C.coral, glyph: gAnimeOverload, note: '13.8M visits · ships from CI' },
   { name: 'RBC',           dates: 'Jan 2026 — now',       color: C.mint,  glyph: gRbc,       note: 'AI-agent governance' },
   { name: 'Eterna Online', dates: 'Jul 2026 — now',       color: C.mint,  glyph: gEterna,    note: 'lead · systems and roadmap' },
 ];
 
-/** Six studios, one picture each. */
+/** Six roles, one picture each. */
 export function work() {
   const W = 900, TOP = 84, STEP = 58, L = 48, R = 852;
   const H = TOP + ROWS.length * STEP + 8;
@@ -88,11 +88,11 @@ export function work() {
   const o = [];
   const w = s => o.push(s);
 
-  w(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Six studios: Landvault built four mini-games that never shipped; Boltable, 241M visits across 300+ live servers; Shiloh and Bros, 60 levels from 20 pieces; Hi-Fun, Anime Overload! at 13.8M visits; RBC, AI-agent governance; Eterna Online, lead on systems and roadmap.">`);
+  w(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Six roles: Landvault built four mini-games that never shipped; Boltable, 241M visits across 300+ live servers; Shiloh and Bros, 60 levels from 20 pieces; Anime Overload, 13.8M visits shipping from CI; RBC, AI-agent governance; Eterna Online, lead on systems and roadmap.">`);
   w(`<defs><style>${FONTS}</style></defs>`);
   w(c.open);
   w(`<text x="${L}" y="40" class="mono" font-size="10" fill="${C.ochre}" letter-spacing="2.6">WHERE I'VE WORKED</text>
-<text x="${L}" y="66" class="serif" font-size="21" font-weight="700" fill="${C.ink}">Six studios, one picture each</text>
+<text x="${L}" y="66" class="serif" font-size="21" font-weight="700" fill="${C.ink}">Six roles, one picture each</text>
 <line x1="${L}" y1="${TOP - 8}" x2="${R}" y2="${TOP - 8}" stroke="${C.line}"/>`);
 
   ROWS.forEach((r, i) => {
