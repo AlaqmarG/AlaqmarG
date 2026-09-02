@@ -21,7 +21,7 @@ export function heroCard(total, shipped) {
   const o = [];
   const w = s => o.push(s);
 
-  w(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Alaqmar Gandhi — game developer, platform engineer, live-ops. ${M(total)} lifetime visits across ${shipped} shipped titles, six studios, three years. Landvault, Boltable, Shiloh and Bros and Hi-Fun on the games track; Royal Bank of Canada on the platform track. Hi-Fun overlapped RBC, and Eterna Online and RBC are both current.">`);
+  w(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Alaqmar Gandhi — game developer, platform engineer, live-ops. ${M(total)} lifetime visits across ${shipped} shipped titles, six studios, three years. Landvault, Boltable, Shiloh and Bros and Hi-Fun (Anime Overload!) on the games track; Royal Bank of Canada on the platform track. Hi-Fun overlapped RBC, and Eterna Online and RBC are both current.">`);
   w(`<defs><style>${FONTS}
     .halo{animation:halo 2.6s ease-out infinite}@keyframes halo{0%{r:4;opacity:.55}70%,100%{r:12;opacity:0}}
   </style></defs>`);
