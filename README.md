@@ -23,7 +23,7 @@ first university lecture — alongside a DevOps co-op at **Royal Bank of Canada*
 governance platform. Same job either way: ship from CI, measure what players do, let the
 numbers pick what is next.
 
-**Now** — Lead Developer at **Eterna Online** (MMO RPG in development, selected into
+**Now** — Head of Engineering at **Eterna Online** (MMO RPG in development, selected into
 [Roblox Jumpstart](https://about.roblox.com/newsroom/2026/03/roblox-announces-incubator-jumpstart-creator-programs)),
 and DevOps Developer at **RBC**. Both current.
 **Open to** live-ops and platform engineering roles, games or otherwise —
@@ -36,7 +36,7 @@ and DevOps Developer at **RBC**. Both current.
   <img src="https://raw.githubusercontent.com/AlaqmarG/AlaqmarG/main/assets/work.svg" alt="Six roles: Landvault, four mini-games that never shipped; Boltable, 241M visits across 300+ live servers; Shiloh and Bros, 60 levels from 20 pieces; Anime Overload, 13.8M visits shipping from CI; RBC, AI-agent governance; Eterna Online, lead on systems and roadmap.">
 </picture>
 
-- **Eterna Online** — Lead Developer, Jul 2026–now. Systems and roadmap on an MMO RPG in development. `roblox-ts`, Flamework, Rojo.
+- **Eterna Online** — Head of Engineering, Jul 2026–now. Systems and roadmap on an MMO RPG in development. `roblox-ts`, Flamework, Rojo.
 - **Royal Bank of Canada** — DevOps Developer, co-op, Jan 2026–now, Toronto. Compliance gates for repos running agentic workflows, SBOM inventory into Elasticsearch, Cosign signing, release-branch gates.
 - **[Anime Overload!](https://www.roblox.com/games/126297188712308/)** — Game Developer, contract, Nov 2025–Apr 2026. Game UI, core backend and gameplay on an in-house ECS, plus the CD pipeline: Mantle, Open Cloud, DarkLua, Lune, GitHub Actions.
 - **Shiloh & Bros** — Game Developer, Mar–Aug 2025. 60 levels from 20 static elements, NPC behaviour trees, matchmaking, and the funnel work that lifted payer conversion 62.5%.
@@ -62,7 +62,7 @@ and DevOps Developer at **RBC**. Both current.
 | [Anime Overload!](https://www.roblox.com/games/126297188712308/) | Contract | ECS gameplay, backend, CD pipeline | **13.9M** |
 | [Escape The Labryn](https://www.roblox.com/games/86053660293681/) | Shiloh & Bros | 60 levels from 20 static elements | **4.5M** |
 | Pudgy Penguins | Landvault | 4 procedural mini-games · physics, controls, UI | *never shipped* |
-| Eterna Online | Lead Developer | MMO RPG · Roblox Jumpstart | *in development* |
+| Eterna Online | Head of Engineering | MMO RPG · Roblox Jumpstart | *in development* |
 <!-- TITLES:END -->
 
 </div>
