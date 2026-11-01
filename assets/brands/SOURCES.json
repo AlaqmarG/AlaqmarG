@@ -13,13 +13,13 @@
     {
       "file": "shiloh-official-current.png",
       "url": "https://static.wixstatic.com/media/d36aec_cec1868f048d4f27b6b05b69156a6ee6~mv2.png",
-      "note": "Transparent wordmark from official careers homepage; SVG viewport removes empty padding. Dark variant presents original shapes in white."
+      "note": "Transparent official careers wordmark; SVG viewport removes empty padding. Both themes retain original purple and blue. Only the ampersand is presented in white in the dark variant, using a clipped overlay of the original artwork."
     },
     {
       "file": "brock.svg",
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Brock_University_Logo_2022.svg",
       "originalSource": "https://brocku.ca/wp-content/themes/brocku-mu-base/images/brocku-logo-rgb.svg",
-      "note": "Brock-authored 2022 SVG mirrored on Wikimedia. Presentation variants remove the red rectangular backing and retain original letter paths in red (light) or white (dark)."
+      "note": "Brock-authored 2022 SVG mirrored on Wikimedia. Presentation variants remove the rectangular backing and retain original letter paths in Brock red in both themes."
     },
     {
       "file": "sea-of-thieves-logo.png",
@@ -32,5 +32,5 @@
     "boltable": "https://www.boltablestudio.com/",
     "shiloh": "https://www.shilohandbrosjobs.com/"
   },
-  "presentation": "Background-free marks; no white tiles or borders. RBC and Boltable preserve original colours; Shiloh uses its transparent wordmark with a white silhouette for dark backgrounds. SVG wrappers embed source bytes."
+  "presentation": "Background-free colour marks in both themes; no white tiles or borders. Shiloh dark variant changes only the ampersand for contrast. SVG wrappers embed original source bytes."
 }

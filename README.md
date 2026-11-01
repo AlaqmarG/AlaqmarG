@@ -7,32 +7,29 @@
 
 I build developer tools, backend services, and interactive products. My experience spans enterprise software teams and game studios, from delivery automation to multiplayer systems.
 
-### Experience
+## Experience
 
-<p><img src="assets/brands/rbc-badge.svg" width="32" height="32" align="middle" alt=""> <strong>Royal Bank of Canada</strong><br>
-Software Developer · Co-op</p>
+<table>
+<tr>
+<td width="840"><p><img src="assets/brands/rbc-badge.svg" width="32" height="32" align="middle" alt=""> <strong>Royal Bank of Canada</strong><br>Software Developer · Co-op</p><p>Built a self-healing agent, self-learning systems, and AI governance tooling at enterprise scale.</p></td>
+</tr>
+<tr>
+<td width="840"><p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/brands/shiloh-badge-dark-color.svg"><img src="assets/brands/shiloh-badge.svg" width="120" height="37" alt="Shiloh &amp; Bros"></picture><br>Game Developer · Contract</p><p>Built gameplay systems, procedural environments, and NPC behaviour for Roblox games.</p></td>
+</tr>
+<tr>
+<td width="840"><p><img src="assets/brands/boltable-badge.svg" width="32" height="32" align="middle" alt=""> <strong>Boltable Studio</strong><br>Software Developer · Co-op</p><p>Developed multiplayer networking, backend services, and game-data integrations for studio tools.</p></td>
+</tr>
+</table>
 
-Built a self-healing agent, self-learning systems, and AI governance tooling at enterprise scale.
+## Education & community
 
+<table>
+<tr>
+<td width="840"><p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/brands/brock-mark-dark-color.svg"><img src="assets/brands/brock-mark.svg" width="88" height="53" alt="Brock University"></picture><br><strong>BSc (Honours) · Computer Science</strong><br>Co-op · In progress</p><p>Club Executive, Brock Computer Science Club.</p></td>
+</tr>
+</table>
 
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/brands/shiloh-badge-dark.svg"><img src="assets/brands/shiloh-badge.svg" width="104" height="32" align="middle" alt="Shiloh &amp; Bros"></picture><br>
-Game Developer · Contract</p>
-
-Built gameplay systems, procedural environments, and NPC behaviour for Roblox games.
-
-
-<p><img src="assets/brands/boltable-badge.svg" width="32" height="32" align="middle" alt=""> <strong>Boltable Studio</strong><br>
-Software Developer · Co-op</p>
-
-Developed multiplayer networking, backend services, and game-data integrations for studio tools.
-
-### Education & community
-
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/brands/brock-mark-dark.svg"><img src="assets/brands/brock-mark.svg" width="70" height="42" align="middle" alt="Brock University"></picture><br>
-BSc (Honours) in Computer Science, Co-op — in progress.<br>
-Club Executive, Brock Computer Science Club.</p>
-
-### Outside work
+## Outside work
 
 I spent a good while making games, and I still love playing them. Away from code, you'll also find me on the controlling side of the radio.
 

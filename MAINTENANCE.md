@@ -1,10 +1,10 @@
 # Profile maintenance
 
-README.md owns the professional introduction, employer roles and high-level contributions, education, hobbies and contact links. Experience is always visible. Do not restore selected-project tiles, disclosure controls or oversized cards. Pins and repository descriptions are managed separately.
+README.md owns the professional introduction, employer roles and high-level contributions, education, hobbies and contact links. Native H2 headings provide clear section rules. Full-width single-column table rows group each employer, role and contribution; education follows the same width. Keep this layout usable at 320px without custom responsive CSS. Experience is always visible. Do not restore selected-project tiles, disclosure controls or oversized cards. Pins and repository descriptions are managed separately.
 
 Keep the identity broad: software development across enterprise teams and game studios. Brock's degree remains explicitly in progress. The RBC contribution describes a self-healing agent, self-learning systems and AI governance at enterprise scale. Do not add internal system names, architecture, deployment counts or employer metrics. Avoid dates, current-role claims, availability announcements and graduation countdowns. Describe the VATSIM S2 rating as earned.
 
-The employer and university marks have no added backplates or borders. Preserve their original proportions and letterforms. Shiloh and Brock use presentation variants derived from source artwork for light/dark contrast. Brock's wordmark supplies its visible name; its image alternative is Brock University. The Sea of Thieves logo is embedded in the hobby illustration. Source URLs and adaptations are recorded in assets/brands/SOURCES.json; keep the source assets needed by the builders.
+The employer and university marks have no added backplates or borders. Preserve their original proportions and letterforms. Brock stays red in both themes; Shiloh retains its original purple and blue, with only its ampersand presented in white on dark. The -dark-color.svg names distinguish the coloured variants from earlier white versions. Brock's wordmark supplies its visible name; its image alternative is Brock University. The Sea of Thieves logo is embedded in the hobby illustration. Source URLs and adaptations are recorded in assets/brands/SOURCES.json; keep the source assets needed by the builders.
 
 Rebuild affected assets from the repository root:
 
