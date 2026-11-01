@@ -1,0 +1,36 @@
+{
+  "retrieved": "2026-11-01",
+  "sources": [
+    {
+      "file": "rbc.svg",
+      "url": "https://www.rbc.com/dvl/v1.0/assets/images/logos/rbc-logo-shield-blue.svg"
+    },
+    {
+      "file": "boltable-mark.png",
+      "url": "https://www.boltablestudio.com/favicon.ico",
+      "note": "Official compact mark. Response is PNG; bytes preserved with matching extension."
+    },
+    {
+      "file": "shiloh-official-current.png",
+      "url": "https://static.wixstatic.com/media/d36aec_cec1868f048d4f27b6b05b69156a6ee6~mv2.png",
+      "note": "Transparent wordmark from official careers homepage; SVG viewport removes empty padding. Dark variant presents original shapes in white."
+    },
+    {
+      "file": "brock.svg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Brock_University_Logo_2022.svg",
+      "originalSource": "https://brocku.ca/wp-content/themes/brocku-mu-base/images/brocku-logo-rgb.svg",
+      "note": "Brock-authored 2022 SVG mirrored on Wikimedia. Presentation variants remove the red rectangular backing and retain original letter paths in red (light) or white (dark)."
+    },
+    {
+      "file": "sea-of-thieves-logo.png",
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172620/logo.png",
+      "note": "Publisher-provided Steam transparent wordmark; original bytes preserved. Hobby SVG crops transparent margins via viewport and applies a dark-ink treatment for light-theme contrast."
+    }
+  ],
+  "pages": {
+    "rbc": "https://www.rbc.com/about-rbc.html",
+    "boltable": "https://www.boltablestudio.com/",
+    "shiloh": "https://www.shilohandbrosjobs.com/"
+  },
+  "presentation": "Background-free marks; no white tiles or borders. RBC and Boltable preserve original colours; Shiloh uses its transparent wordmark with a white silhouette for dark backgrounds. SVG wrappers embed source bytes."
+}

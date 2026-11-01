@@ -1,9 +1,12 @@
-import {mkdir,writeFile} from 'node:fs/promises';
+import {mkdir,readFile,writeFile} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 
 const assets=new URL('../assets/',import.meta.url);
+// Original publisher-provided transparent Steam logo, kept unmodified on disk.
+// https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172620/logo.png
+const seaOfThievesLogo=(await readFile(new URL('brands/sea-of-thieves-logo.png',assets))).toString('base64');
 const PERIOD=14,REST=7;
-const themes={light:{ink:'#1f3945',muted:'#526773',line:'#d8e0e3',accent:'#17798b',mint:'#438e77',amber:'#a76a24'},dark:{ink:'#e5edf0',muted:'#a6b7c1',line:'#303d48',accent:'#7bcbd7',mint:'#97d2b7',amber:'#e0af69'}};
+const themes={light:{ink:'#243247',muted:'#596779',line:'#d8e0e9',accent:'#3169a5',mint:'#438e77',amber:'#a76a24'},dark:{ink:'#e7edf6',muted:'#a5b4c8',line:'#303e52',accent:'#8bb8ec',mint:'#97d2b7',amber:'#e0af69'}};
 const projects={
   'project-csc':{title:'Brock CSC portal',description:'Events and tools for the club.',tech:'Web platform'},
   'project-halt':{title:'Storefront Lab',description:'Team AI storefront prototype.',tech:'Python / Gemini / TypeScript'},
@@ -31,13 +34,14 @@ function build(module,{dark=false,narrow=false,still=false,time=REST}={}){
   }
   function radar(x,y){return `<g transform="translate(${x} ${y})"><g fill="none" stroke="${p.line}"><circle r="24"/><circle r="14"/><path d="M-27 0h54M0-27v54"/></g>${motion(t=>({angle:t/PERIOD*360}),`<path d="M0 0V-24A24 24 0 0 1 24 0Z" fill="${p.accent}" opacity=".12"/><path d="M0 0V-24" stroke="${p.accent}"/>`)}${motion(t=>({x:Math.cos(cycle(t))*16,y:Math.sin(cycle(t))*12,angle:t/PERIOD*360+90}),`<path d="M0-4 1-1 4 1v1L1 1v2l1 1H-2l1-1V1l-3 1V1l3-2Z" fill="${p.accent}"/>`)}</g>`;}
   function ship(x,y){return `<g transform="translate(${x} ${y})">${motion(t=>({y:Math.sin(cycle(t)*2)*1.3,angle:Math.sin(cycle(t))*2}),`<path d="M-20 11h40l-6 7h-27Z" fill="${p.ink}"/><path d="M0 10V-23" stroke="${p.ink}" stroke-width="1.4"/><path d="M-3-18-19 7h16Z" fill="${p.mint}"/><path d="M4-11 17 7H4Z" fill="${p.amber}"/>`)}<path d="M-24 25q6-2 12 0t12 0m9-3q6-2 12 0t12 0" stroke="${p.accent}" opacity=".55" fill="none"/></g>`;}
+  function gameLogo(x,y,width){return `${dark?'':'<defs><filter id="sot-light" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 .141 0 0 0 0 .196 0 0 0 0 .278 .333 .333 .333 0 0" result="ink"/><feComposite in="ink" in2="SourceGraphic" operator="in"/></filter></defs>'}<svg x="${x}" y="${y}" width="${width}" height="${width*168/590}" viewBox="38 93 590 168"><image width="640" height="360" href="data:image/png;base64,${seaOfThievesLogo}"${dark?'':' filter="url(#sot-light)"'}/></svg>`;}
   let body='';
   if(module==='identity'){
-    body=text(0,narrow?35:33,'Alaqmar Gandhi',narrow?29:32,p.ink,'font-weight="700" letter-spacing="-.8"')+text(1,narrow?65:61,'Software engineering / AI-powered products',narrow?17:16,p.muted);
+    body=text(0,narrow?35:33,'Alaqmar Gandhi',narrow?29:32,p.ink,'font-weight="700" letter-spacing="-.8"')+text(1,narrow?65:61,'Software Developer',narrow?17:16,p.muted);
   }else if(module==='off-clock'){
     body=radar(27,44)+text(69,35,'VATSIM UK',narrow?20:19,p.ink,'font-weight="650"')+text(69,61,'Earned S2 · virtual ATC',narrow?17:15,p.muted);
-    if(narrow)body+=ship(27,125)+text(69,120,'Sea of Thieves',20,p.ink,'font-weight="650"')+text(69,146,'Still a favourite.',17,p.muted);
-    else body+=ship(456,44)+text(500,35,'Sea of Thieves',19,p.ink,'font-weight="650"')+text(500,61,'Still a favourite.',15,p.muted);
+    if(narrow)body+=ship(27,125)+gameLogo(69,93,160)+text(69,159,'Still a favourite.',17,p.muted);
+    else body+=ship(456,44)+gameLogo(500,3,180)+text(500,79,'Still a favourite.',15,p.muted);
   }else{
     const info=projects[module];if(!info)throw Error(`Unknown module: ${module}`);
     const x=narrow?56:60;
@@ -52,7 +56,7 @@ function build(module,{dark=false,narrow=false,still=false,time=REST}={}){
 const args=process.argv.slice(2);
 function option(name){const s=args.find(a=>a.startsWith(name+'='));if(s)return s.slice(name.length+1);const i=args.indexOf(name);return i>=0?args[i+1]:undefined;}
 const snapshot=option('--snapshot');
-if(snapshot===undefined){
+if(snapshot===undefined&&!option('--module')){
   await mkdir(assets,{recursive:true});
   const inlineIcons={
     code:'<path d="m7 7-5 5 5 5m10-10 5 5-5 5m-3-13-4 18"/>',
@@ -61,4 +65,4 @@ if(snapshot===undefined){
   for(const [name,shape] of Object.entries(inlineIcons))await writeFile(new URL(`inline-${name}.svg`,assets),`<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#28899b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">${shape}</svg>\n`,'utf8');
 }
 if(snapshot!==undefined){const time=Number(snapshot),output=option('--output'),module=option('--module')||'identity';if(!Number.isFinite(time)||time<0||time>PERIOD||!output)throw Error('Use --module name --snapshot 0..14 --output path.svg [--dark] [--narrow]');await writeFile(output,build(module,{dark:args.includes('--dark'),narrow:args.includes('--narrow'),still:true,time}),'utf8');console.log(`Snapshot: ${output}`);}
-else{await mkdir(assets,{recursive:true});for(const module of ['identity',...Object.keys(projects),'off-clock'])for(const dark of [false,true])for(const narrow of [false,true]){const name=`${module}${narrow?'-narrow':''}${dark?'-dark':''}.svg`;await writeFile(new URL(name,assets),build(module,{dark,narrow}),'utf8');console.log(`Built ${fileURLToPath(new URL(name,assets))}`);}}
+else{await mkdir(assets,{recursive:true});const selected=option('--module');for(const module of selected?[selected]:['identity',...Object.keys(projects),'off-clock'])for(const dark of [false,true])for(const narrow of [false,true]){const name=`${module}${narrow?'-narrow':''}${dark?'-dark':''}.svg`;await writeFile(new URL(name,assets),build(module,{dark,narrow}),'utf8');console.log(`Built ${fileURLToPath(new URL(name,assets))}`);}}
